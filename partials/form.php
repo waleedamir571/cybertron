@@ -30,7 +30,7 @@
                           
                         </div>
                         <div class="panel-body">
-                           <img src="assets/imgs/page/app/f1.png" alt="">
+                           <img class="w-100" src="assets/imgs/page/app/f1.png" alt="">
                           
                         </div>
                     </div>
@@ -40,7 +40,7 @@
                           
                         </div>
                         <div class="panel-body">
-                            <img src="assets/imgs/page/app/f2.png" alt="">
+                            <img class="w-100" src="assets/imgs/page/app/f2.png" alt="">
                            
                         </div>
                     </div>
@@ -50,7 +50,7 @@
                            
                         </div>
                         <div class="panel-body">
-                             <img src="assets/imgs/page/app/f3.png" alt="">
+                             <img class="w-100" src="assets/imgs/page/app/f3.png" alt="">
                            
                         </div>
                     </div>
@@ -60,7 +60,7 @@
                           
                         </div>
                         <div class="panel-body">
-                             <img src="assets/imgs/page/app/f4.png" alt="">
+                             <img class="w-100" src="assets/imgs/page/app/f4.png" alt="">
                            
                         </div>
                     </div>

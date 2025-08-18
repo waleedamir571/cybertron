@@ -8,7 +8,7 @@
             <div class="container-fluid">
 
                 <!-- 🔥 EXPANDABLE VIDEO SECTION STARTS -->
-                <img src="assets/imgs/page/join/join.png" alt="">
+                <img class="w-100" src="assets/imgs/page/join/join.png" alt="">
                 <!-- 🔥 EXPANDABLE VIDEO SECTION ENDS -->
 
             </div>
@@ -139,7 +139,7 @@
 
 
     <section class="section">
-        <div class="box-why-us bg-900">
+        <div class="box-why-us1 bg-900">
             <div class="container-fluid">
                 <div class="pb-45" data-aos="fade-right">
                     <p class="head">Open <span class="purple">Positions </span> <br>

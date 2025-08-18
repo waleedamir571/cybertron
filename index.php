@@ -175,9 +175,10 @@
 
                 <div class="col-md-6 " data-aos="fade-left">
                   <div class="row">
-                    <div class="col-md-12">
+                    <div class="col-md-12 pb-10">
                       <img src="assets/imgs/page/homepage1/f2.png" alt="">
                     </div>
+                   
                     <div class="col-md-6">
                       <img src="assets/imgs/page/homepage1/f3.png" alt="">
                     </div>
@@ -194,7 +195,7 @@
               </div>
               <div class="row  ">
                 <div class="col-md-12" data-aos="fade-up">
-                  <img src="assets/imgs/page/homepage1/f5.png" alt="">
+                  <img class="w-100" src="assets/imgs/page/homepage1/f5.png" alt="">
                 </div>
               </div>
             </div>
@@ -207,7 +208,7 @@
           <div class="container-fluid">
             <div class="box-why-us-top" data-aos="fade-right">
               <p class="head">Real-World , <span class="purple">Thinking </span> <br>
-                Practical Solutions </p>
+                Practical <span class="bold"> Solutions</span>  </p>
 
 
 
@@ -235,7 +236,7 @@
                     <img class="w-90" src="assets/imgs/page/homepage1/graph-3.gif" alt="">
                   </div>
                 </div>
-                <!-- <img src="assets/imgs/page/homepage1/m2.png" alt=""> -->
+               
               </div>
             </div>
 
@@ -301,7 +302,8 @@
 
         </div>
       </section>
-      <div class="container-fluid">
+      <section class="bg-900">
+      <div class="container-fluid ">
       <div class="row pt-50 pb-50 align-items-center box-why-us bg-900">
         <div class="col-sm-6" data-aos="fade-right">
           <p class="create white">See what <span class="purple"> clients say</span> about CybertronLabs</p>
@@ -315,6 +317,7 @@
         </div>
       </div>
       </div>
+      </section>
       <section class="section box-why-us bg-900">
 
         <div class="container-fluid">
@@ -349,7 +352,57 @@
                         </div>
                       </div>
                     </div>
+                     <div class="testimonial-card">
+                      <p class="testimonial-text">“What struck us most about Fourmeta was their unwavering commitment to
+                        meeting challenging deadlines and seamlessly aligning with our brand identity guidelines.”</p>
+                      <div class="testimonial-client">
+                        <div class="client-logo"></div>
+                        <div>
+                          <div class="client-name">smarthost.co.uk</div>
+                          <div class="client-title">Aras Rammov / CEO & Co-Founder SmartHost</div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
+                
+                  <!-- Column 2 -->
+               <div class="testimonial-column">
+                    <div class="testimonial-card">
+                      <p class="testimonial-text">“What struck us most about Fourmeta was their unwavering commitment to
+                        meeting challenging deadlines and seamlessly aligning with our brand identity guidelines.”</p>
+                      <div class="testimonial-client">
+                        <div class="client-logo"></div>
+                        <div>
+                          <div class="client-name">smarthost.co.uk</div>
+                          <div class="client-title">Aras Rammov / CEO & Co-Founder SmartHost</div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                      <p class="testimonial-text">“As expected from the team, the project was completed on time and we
+                        launched the website earlier than expected.”</p>
+                      <div class="testimonial-client">
+                        <div class="client-logo"></div>
+                        <div>
+                          <div class="client-name">beauty company</div>
+                          <div class="client-title">Vincent Moore / Director</div>
+                        </div>
+                      </div>
+                    </div>
+                     <div class="testimonial-card">
+                      <p class="testimonial-text">“What struck us most about Fourmeta was their unwavering commitment to
+                        meeting challenging deadlines and seamlessly aligning with our brand identity guidelines.”</p>
+                      <div class="testimonial-client">
+                        <div class="client-logo"></div>
+                        <div>
+                          <div class="client-name">smarthost.co.uk</div>
+                          <div class="client-title">Aras Rammov / CEO & Co-Founder SmartHost</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
                   <div class="testimonial-column">
                     <div class="testimonial-card">
                       <p class="testimonial-text">“What struck us most about Fourmeta was their unwavering commitment to
@@ -374,61 +427,19 @@
                         </div>
                       </div>
                     </div>
-                  </div>
-
-                  <!-- Column 2 -->
-                  <div class="testimonial-column">
-                    <div class="testimonial-card">
-                      <p class="testimonial-text">“Our customers love it, our conversion rates are high, and we believe
-                        there's more success to come. We've built a store that won't need renovations for a very long
-                        time.”</p>
+                     <div class="testimonial-card">
+                      <p class="testimonial-text">“What struck us most about Fourmeta was their unwavering commitment to
+                        meeting challenging deadlines and seamlessly aligning with our brand identity guidelines.”</p>
                       <div class="testimonial-client">
                         <div class="client-logo"></div>
                         <div>
-                          <div class="client-name">danjohn.com</div>
-                          <div class="client-title">Oscar Maddison / Marketing Director</div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="testimonial-card">
-                      <p class="testimonial-text">“As expected from the team, the project was completed on time and we
-                        launched the website earlier than expected.”</p>
-                      <div class="testimonial-client">
-                        <div class="client-logo"></div>
-                        <div>
-                          <div class="client-name">beauty company</div>
-                          <div class="client-title">Vincent Moore / Director</div>
+                          <div class="client-name">smarthost.co.uk</div>
+                          <div class="client-title">Aras Rammov / CEO & Co-Founder SmartHost</div>
                         </div>
                       </div>
                     </div>
                   </div>
-                  <div class="testimonial-column">
-                    <div class="testimonial-card">
-                      <p class="testimonial-text">“Our customers love it, our conversion rates are high, and we believe
-                        there's more success to come. We've built a store that won't need renovations for a very long
-                        time.”</p>
-                      <div class="testimonial-client">
-                        <div class="client-logo"></div>
-                        <div>
-                          <div class="client-name">danjohn.com</div>
-                          <div class="client-title">Oscar Maddison / Marketing Director</div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="testimonial-card">
-                      <p class="testimonial-text">“As expected from the team, the project was completed on time and we
-                        launched the website earlier than expected.”</p>
-                      <div class="testimonial-client">
-                        <div class="client-logo"></div>
-                        <div>
-                          <div class="client-name">beauty company</div>
-                          <div class="client-title">Vincent Moore / Director</div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                
                 </div>
               </div>
 

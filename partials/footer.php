@@ -243,7 +243,10 @@
       function (entries, observer) {
         entries.forEach(function (entry) {
           if (entry.isIntersecting) {
-            section.classList.add("expanded");
+            // Delay 1 second (1000 ms) before adding class
+            setTimeout(() => {
+              section.classList.add("expanded");
+            }, 2000); // yahan ap apni marzi ka time (ms me) set karen
             observer.disconnect(); // Only run once
           }
         });
@@ -254,6 +257,7 @@
     observer.observe(section);
   });
 </script>
+
 
 <script>
   const loopContainer = document.querySelector('.loop-container');
