@@ -2,7 +2,7 @@
   <div class="box-services bg-0 box-projects">
     <div class="container-fluid">
       <div class="row align-items-baseline">
-        <div class="col-md-5 ">
+        <div class="col-md-6 ">
           <!-- <h1 class="text-up"><span class="stroke-900 no-stroke">Services</span></h1> -->
           <p class="home"><span class="purple">Home,</span> What we Do, Capabilities
             Digital Transformation, How we Deliver,Join Cybertron</p>
@@ -10,7 +10,7 @@
           <p class="lorem">Figma ipsum component variant main layer. Background follower figjam list opacity slice
             edit stroke.</p>
         </div>
-        <div class="col-md-3 offset-md-1">
+        <div class="col-md-2 offset-md-1">
           <!-- <h1 class="text-up"><span class="stroke-900 no-stroke">Services</span></h1> -->
           <p class="call">Call us</p>
           <br>
@@ -23,7 +23,7 @@
           <p class="call">House # A29, 2-V, KDA Scheme #1 KDA Scheme 1, Karachi, Pakistan</p>
 
         </div>
-        <div class="col-md-3 ">
+        <div class="col-md-2 offset-md-1">
           <!-- <h1 class="text-up"><span class="stroke-900 no-stroke">Services</span></h1> -->
           <p class="call">Follow Us</p>
           <br>
@@ -56,7 +56,7 @@
       <div class="row pt-45">
         <div class="footer-section ">
        
-          <p class="action">Digital Transformation</p>
+          <p class="action pb-20">Digital Transformation</p>
           <ul class="footer-links">
             <li><a href="web-app-development.php">Web Development</a></li>
             <li><a href="mobile-app-development.php">App Development</a></li>
@@ -68,7 +68,7 @@
         <!-- Services -->
         <div class="footer-section">
           <!-- <h4>Services</h4> -->
-          <ul class="footer-links pt-50">
+          <ul class="footer-links pt-70">
             <li><a href="ui-ux-design.php">UI/UX Design</a></li>
             <li><a href="ecommerce.php">E-Commerce</a></li>
             <li><a href="design-and-development.php">Design & Development</a></li>
@@ -79,7 +79,7 @@
         <!-- Resources -->
         <div class="footer-section">
           <!-- <h4>Resources</h4> -->
-          <ul class="footer-links  pt-50">
+          <ul class="footer-links  pt-70">
             <li><a href="">Digital Marketing</a></li>
             <li><a href="blog-2.">SEO Optimization</a></li>
             <li><a href="blog-3.">Content Strategy</a></li>
@@ -90,7 +90,7 @@
         <!-- Contact Info -->
         <div class="footer-section">
           <!-- <h4>Resources</h4> -->
-          <ul class="footer-links pt-50">
+          <ul class="footer-links pt-70">
             <li><a href="blog.">News & Events</a></li>
             <li><a href="blog-2.">Project Management</a></li>
             <li><a href="join.php">Jobs & Careers</a></li>
@@ -263,12 +263,15 @@
   const loopContainer = document.querySelector('.loop-container');
   const loopContent = document.getElementById('loopContent');
 
+  // set height to 40rem
+  loopContainer.style.height = "40rem";
+
   // Clone the content for seamless loop
   const clone = loopContent.cloneNode(true);
   loopContent.appendChild(clone);
 
   let scrollPosition = 0;
-  const scrollSpeed = 1; // pixels per frame
+  const scrollSpeed = 0.2; // pixels per frame
 
   function scrollLoop() {
     scrollPosition += scrollSpeed;
@@ -281,6 +284,7 @@
 
   scrollLoop();
 </script>
+
 
 
 <script>

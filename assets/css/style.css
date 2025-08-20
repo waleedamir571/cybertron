@@ -466,13 +466,25 @@ input[type="file"] {
   /* 35.316px */
 }
 
+.box-why-us2 {
+    padding: 10px 0px 100px 0px;
+    /* background-image: url(../imgs/page/web/bgblue.png); */
+    background-repeat: no-repeat;
+    /* height: 23rem; */
+}
+.loop-container {
+  padding: 50px 0; /* 50px top & bottom, 0 left & right */
+  height: 40rem;   /* jo aapne pehle set kiya */
+  overflow: hidden; /* optional agar scroll content ka hai */
+}
+
 .h-99 {
   height: 99%;
 }
 
 .w-24 {
-    width: 40px;
-    height: 40px;
+    width: 45px;
+    height: 45px;
     /* margin-left: -53px; */
     /* position: absolute; */
 }
@@ -676,10 +688,9 @@ input[type="file"] {
 
 .action {
   color: #FFF;
-
   font-size: 32px;
   font-style: normal;
-  font-weight: 300;
+  font-weight: 600;
   line-height: 98%;
   /* 31.36px */
   letter-spacing: 0.96px;
@@ -771,11 +782,12 @@ input[type="file"] {
 }
 
 .cta-section {
-  background: url(../imgs/page/homepage1/cta.png) no-repeat;
-  background-size: 100% 100%;
-  color: white;
-  padding: 100px 0;
-  border-radius: 22px;
+    background: url(../imgs/page/homepage1/cta.png) no-repeat;
+    background-size: 100% 100%;
+    color: white;
+    padding: 100px 0;
+    border-radius: 22px;
+    height: 625px;
 }
 
 /* .cta-text h1 {
@@ -951,14 +963,13 @@ input[type="file"] {
 }
 
 .footer-links a {
-  color: #ccc;
-  text-decoration: none;
-  transition: color 0.2s ease;
-  font-size: 28px;
-  line-height: 45px;
-  font-weight: 300;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.2s ease;
+    font-size: 28px;
+    line-height: 45px;
+    font-weight: 300;
 }
-
 
 .footer-links a:hover {
   color: #fff;
@@ -970,7 +981,7 @@ input[type="file"] {
 }
 
 .footer-section p {
-  opacity: 0.8;
+  opacity: 1;
   line-height: 1.6;
 }
 
@@ -1209,6 +1220,16 @@ label {
   line-height: 98%;
   /* 28.038px */
   letter-spacing: 0.858px;
+}
+
+.why-link {
+  display: inline-flex;
+  align-items: center; /* vertically center karega */
+  gap: 8px; /* image aur text ke beech space */
+  text-decoration: none; /* optional */
+}
+.why-link img {
+  display: block; /* extra spacing hatane ke liye */
 }
 
 /* .why-link::before {
@@ -1709,12 +1730,16 @@ h6,
   background-color: #F2F6F9;
 }
 
+.h-75{
+  height: 75%;
+}
+
 .bg-200 {
   background-color: #DCE4EC;
 }
 
 .bg-900 {
-  background-color: #0C0D0E !important;
+    background-color: #141414 !important;
 }
 
 .bg-800 {
@@ -8627,13 +8652,24 @@ footer a {
   max-width: 650px;
   width: 100%;
 }
+.btn.btn-default2 {
+    padding: 21px 72px;
+    border-radius: 100px;
+    /* background-color: #0C0D0E; */
+    color: #FFFFFF;
+    font-size: 21px;
+    line-height: 20px;
+    font-weight: 700;
+    border-radius: 67px;
+    background: #5658BE;
+}
 
 .box-services {
   padding-bottom: 150px;
 }
 
 .box-services-slider {
-  padding-left: 55px;
+  padding-left: 0px;
   margin-top: 50px;
 }
 
@@ -8684,18 +8720,17 @@ footer a {
 
 .box-why-us {
   padding: 100px 0px 100px 0px;
-  /* background-image: url(../imgs/page/web/bgblue.png); */
+  background-image: url(../imgs/page/web/bgblue.png);
   background-repeat: no-repeat;
   /* background-position: bottom left;
   position: relative; */
 }
 
 .box-why-us1 {
-  padding: 100px 0px 100px 0px;
-  background-image: url(../imgs/page/web/bgblue.png);
-  background-repeat: no-repeat;
-  /* background-position: bottom left;
-  position: relative; */
+    padding: 100px 0px 100px 0px;
+    background-image: url(../imgs/page/web/bgblue.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
 .box-why-us::before {

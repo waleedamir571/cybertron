@@ -103,93 +103,62 @@
       </div>
     </div>
   </section>
-  <section class="section">
-    <div class="box-why-us bg-900">
-      <div class="container-fluid">
-        <div class="box-why-us-top" data-aos="fade-right">
-          <p class="head">Real-World , <span class="purple">Thinking </span> <br>
-            Practical Solutions </p>
+   <section class="section">
+        <div class="box-why-us bg-900">
+          <div class="container-fluid">
+            <div class="box-why-us-top" data-aos="fade-right">
+              <p class="head">Real-World , <span class="purple">Thinking </span> <br>
+                Practical <span class="bold"> Solutions</span>  </p>
 
 
 
 
-        </div>
-        <div class="row">
-          <div class="col-sm-6" data-aos="fade-right">
-            <!-- <img class="h-99" src="assets/imgs/page/homepage1/m1.png" alt=""> -->
-            <p class="cost "> Marketing Costs</p>
-            <p class="number1 pb-20 pt-20">-87%</p>
-            <img src="assets/imgs/page/homepage1/graph-1.gif" alt="">
-
-          </div>
-          <div class="col-sm-6" data-aos="fade-left">
+            </div>
             <div class="row">
-              <div class="col-md-12">
-                <p class="cost "> Impressions</p>
-                <p class="number1 pb-20 pt-20">+356%</p>
-                <img src="assets/imgs/page/homepage1/graph-2.gif" alt="">
-              </div>
-
-            </div>
-            <!-- <img src="assets/imgs/page/homepage1/m2.png" alt=""> -->
-          </div>
-        </div>
-
-        <div class="cybertron-section">
-          <div class="swiper mySwiper">
-            <div class="swiper-wrapper">
-
-              <!-- Slide 1 -->
-              <div class="swiper-slide">
-                <img src="assets/imgs/page/homepage1/s1.png" alt="Augmentation">
+              <div class="col-sm-6" data-aos="fade-right">
+                <!-- <img class="h-99" src="assets/imgs/page/homepage1/m1.png" alt=""> -->
+                <p class="cost "> Marketing Costs</p>
+                <p class="number1 pb-20 pt-20">-87%</p>
+                <img class="h-75 w-100" src="assets/imgs/page/homepage1/marketing-costs 1.png" alt="">
 
               </div>
+              <div class="col-sm-6" data-aos="fade-left">
+                <div class="row">
+                  <div class="col-md-12">
+                    <!-- <p class="cost "> Impressions</p>
+                    <p class="number1 pb-20 pt-20">+356%</p> -->
+                    <img class="w-100" src="assets/imgs/page/homepage1/g1 (2).png" alt="">
+                  </div>
+                  <!-- <div class="col-md-12 pt-80">
 
-              <!-- Slide 2 -->
-              <div class="swiper-slide">
-                <img src="assets/imgs/page/homepage1/s2.png" alt="Augmentation">
+                    <p class="cost "> Net Sales Value</p>
+                    <p class="number1 pb-20 pt-20">+150%</p>
+                    <img class="w-90" src="assets/imgs/page/homepage1/graph-3.gif" alt="">
+                  </div> -->
+                </div>
+               
               </div>
-
-              <!-- Slide 3 -->
-              <div class="swiper-slide">
-                <img src="assets/imgs/page/homepage1/s3.png" alt="Augmentation">
-              </div>
-
-              <!-- Slide 4 -->
-              <div class="swiper-slide">
-                <img src="assets/imgs/page/homepage1/s4.png" alt="Augmentation">
-              </div>
-              <div class="swiper-slide">
-                <img src="assets/imgs/page/homepage1/s5.png" alt="Augmentation">
-              </div>
-              <div class="swiper-slide">
-                <img src="assets/imgs/page/homepage1/s6.png" alt="Augmentation">
-              </div>
-              <div class="swiper-slide">
-                <img src="assets/imgs/page/homepage1/s7.png" alt="Augmentation">
-              </div>
-              <div class="swiper-slide">
-                <img src="assets/imgs/page/homepage1/s8.png" alt="Augmentation">
-              </div>
-              <div class="swiper-slide">
-                <img src="assets/imgs/page/homepage1/s9.png" alt="Augmentation">
-              </div>
-
             </div>
 
-            <!-- ✅ Navigation Arrows -->
-            <!-- <div class="swiper-button-next"></div>
-    <div class="swiper-button-prev"></div> -->
+            <div class="row pt-45">
+              <div class="col-sm-6">
 
-            <!-- ✅ Pagination Dots -->
-            <!-- <div class="swiper-pagination"></div> -->
+              </div>
+              <div class="col-md-6">
+                <p class="lorem white">We solve problems, not just deliver code. Here’s a glimpse into how our work
+                  mindset is
+                  creating value across industries—even before the results go live.</p>
+                <br>
+                <br>
+                <a class="btn btn-default grow-up" href="#">Explore More</a>
+              </div>
+            </div>
+
+
           </div>
+
         </div>
-
-      </div>
-
-    </div>
-  </section>
+      </section>
 
 
 

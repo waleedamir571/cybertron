@@ -349,9 +349,19 @@
     }
 
     var logoLoading = document.querySelector(".page-loader-logo img");
-    logoLoading.addEventListener("load", function () {
-        gsap.to(logoLoading, { duration: 1, scale: 1.5 });
-    });
+var pageLoader = document.querySelector(".page-loader"); // loader ka main div
+
+logoLoading.addEventListener("load", function () {
+    // Logo zoom 0.5 second me
+    gsap.to(logoLoading, { duration: 0.5, scale: 1.5 });
+
+    // 0.5 second baad loader hide kar do
+    setTimeout(function () {
+        gsap.to(pageLoader, { duration: 0.5, opacity: 0, onComplete: function() {
+            pageLoader.style.display = "none";
+        }});
+    }, 500);
+});
 
     // ================================================================
     // Scroll to top
