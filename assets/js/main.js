@@ -348,20 +348,22 @@
         $(".page-loader").hide();
     }
 
-    var logoLoading = document.querySelector(".page-loader-logo img");
-var pageLoader = document.querySelector(".page-loader"); // loader ka main div
+var logoLoading = document.querySelector(".page-loader-logo img");
+var pageLoader = document.querySelector(".page-loader");
+var bgVideo = document.getElementById("bgVideo");
 
-logoLoading.addEventListener("load", function () {
-    // Logo zoom 0.5 second me
-    gsap.to(logoLoading, { duration: 0.5, scale: 1.5 });
+// Video ready hone ka wait karo
+bgVideo.addEventListener("canplaythrough", function () {
+    // Logo zoom 2 second me
+    gsap.to(logoLoading, { duration: 2, scale: 1.5 });
 
-    // 0.5 second baad loader hide kar do
+    // 2 second baad loader hide kar do
     setTimeout(function () {
-        gsap.to(pageLoader, { duration: 0.5, opacity: 0, onComplete: function() {
-            pageLoader.style.display = "none";
-        }});
-    }, 500);
+        pageLoader.style.display = "none";
+        bgVideo.play(); // ensure video plays
+    }, 2000);
 });
+
 
     // ================================================================
     // Scroll to top

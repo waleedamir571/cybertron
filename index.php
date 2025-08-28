@@ -12,7 +12,15 @@
         <!-- 🔥 EXPANDABLE VIDEO SECTION STARTS -->
         <div class="expand-width-section" id="hero-section">
           <!-- 🎥 Background Video -->
-          <video src="assets/imgs/page/homepage1/web bg.mp4" autoplay muted loop playsinline class="bg-video"></video>
+        <video id="bgVideo" 
+       src="assets/imgs/page/homepage1/web bg.mp4" 
+       autoplay 
+       muted 
+       loop 
+       playsinline 
+       preload="auto" 
+       class="bg-video">
+</video>
 
           <!-- 📝 Text Overlay -->
           <div class="section-content d-flex align-items-center text-white">

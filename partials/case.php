@@ -6,7 +6,9 @@
 
               <div class="col-sm-4" data-aos="fade-right">
                 <div class="insight-card">
-                  <div class="insight-card-image"></div>
+                  <div class="">
+                    <img src="assets/imgs/page/homepage1/1.png" alt="">
+                  </div>
                   <div class="insight-card-body">
                     <h5 class="insight-card-title pb-10">From Idea to Launch</h5>
                     <p class="insight-card-text">
@@ -23,7 +25,9 @@
               </div>
               <div class="col-sm-4" data-aos="fade-down">
                 <div class="insight-card">
-                  <div class="insight-card-image"></div>
+                  <div class="">
+                    <img src="assets/imgs/page/homepage1/2.png" alt="">
+                  </div>
                   <div class="insight-card-body">
                     <h5 class="insight-card-title pb-10">From Idea to Launch</h5>
                     <p class="insight-card-text">
@@ -40,7 +44,9 @@
               </div>
               <div class="col-sm-4" data-aos="fade-left">
                 <div class="insight-card">
-                  <div class="insight-card-image"></div>
+                  <div class="">
+                    <img src="assets/imgs/page/homepage1/3.png" alt="">
+                  </div>
                   <div class="insight-card-body">
                     <h5 class="insight-card-title pb-10">From Idea to Launch</h5>
                     <p class="insight-card-text">
@@ -65,7 +71,9 @@
 
               <div class="col-sm-4" data-aos="fade-right">
                 <div class="insight-card">
-                  <div class="insight-card-image"></div>
+                 <div class="">
+                    <img src="assets/imgs/page/homepage1/4.png" alt="">
+                  </div>
                   <div class="insight-card-body">
                     <h5 class="insight-card-title pb-10">From Idea to Launch</h5>
                     <p class="insight-card-text">
@@ -82,7 +90,9 @@
               </div>
               <div class="col-sm-4" data-aos="fade-down">
                 <div class="insight-card">
-                  <div class="insight-card-image"></div>
+                 <div class="">
+                    <img src="assets/imgs/page/homepage1/5.png" alt="">
+                  </div>
                   <div class="insight-card-body">
                     <h5 class="insight-card-title pb-10">From Idea to Launch</h5>
                     <p class="insight-card-text">
@@ -99,7 +109,9 @@
               </div>
               <div class="col-sm-4" data-aos="fade-left">
                 <div class="insight-card">
-                  <div class="insight-card-image"></div>
+                 <div class="">
+                    <img src="assets/imgs/page/homepage1/6.png" alt="">
+                  </div>
                   <div class="insight-card-body">
                     <h5 class="insight-card-title pb-10">From Idea to Launch</h5>
                     <p class="insight-card-text">

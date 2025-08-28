@@ -103,8 +103,8 @@
       </div>
     </div>
   </section>
-   <section class="section">
-        <div class="box-why-us bg-900">
+   <section class="section pt-50">
+        <div class="box-why-us2 bg-900">
           <div class="container-fluid">
             <div class="box-why-us-top" data-aos="fade-right">
               <p class="head">Real-World , <span class="purple">Thinking </span> <br>

@@ -20,7 +20,7 @@
           <br>
           <p class="number">sales@cybertron.com</p>
           <br>
-          <p class="call">House # A29, 2-V, KDA Scheme #1 KDA Scheme 1, Karachi, Pakistan</p>
+          <p class="call">House # A29, 2-V, KDA Scheme #1 , Karachi, Pakistan</p>
 
         </div>
         <div class="col-md-2 offset-md-1">
@@ -165,6 +165,20 @@
   // Force refresh on every scroll to detect direction and re-trigger animations
   window.addEventListener('scroll', () => {
     AOS.refreshHard();  // Force AOS to recheck all positions
+  });
+</script>
+
+
+<script>
+  // DOM load hone ke baad video ko turant play karne ke liye
+  document.addEventListener("DOMContentLoaded", function() {
+    const video = document.getElementById('bgVideo');
+    
+    // video load hone ke baad turant play karne ki koshish
+    video.load();
+    video.play().catch(function(error) {
+      console.log("Autoplay failed:", error);
+    });
   });
 </script>
 
