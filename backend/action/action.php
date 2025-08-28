@@ -51,41 +51,12 @@ if (isset($_POST['type'])) {
         case 'publishingJourney':
             publishingJourney($_POST, $connection);
             break;
+        // case 'jobPositionForm':
+        //     jobPositionForm($_POST, $connection);
+        //     break;
     }
-    header('Location: /thank-you.php');
+    if (!isset($_POST['no_redirect'])) {
+        header('Location: /thank-you.php');
+    }
 }
-
-
-
-// if (isset($_POST['illustration'])) {
-//     $_POST['page'] = $_SERVER['HTTP_REFERER'];
-//     date_default_timezone_set("Asia/Karachi");
-//     switch ($_POST['illustration']) {
-//         case 'illustrativeForm':
-//             illustrativeForm($_POST, $connection);
-//             break;
-//     }
-//     header('Location: https://hancockpublishers.com/thank-you');
-// }
-
-// if (isset($_POST['bpsPagetype'])) {
-//     $_POST['page'] = $_SERVER['HTTP_REFERER'];
-//     date_default_timezone_set("Asia/Karachi");
-//     switch ($_POST['bpsPagetype']) {
-//         case 'bpsPage':
-//             bpsPage($_POST, $connection);
-//             break;
-//     }
-//     header('Location: https://hancockpublishers.com/book-publishing-services-for-authors/thank-you');
-// }
-// if (isset($_POST['bookpstype'])) {
-//     $_POST['page'] = $_SERVER['HTTP_REFERER'];
-//     date_default_timezone_set("Asia/Karachi");
-//     switch ($_POST['bookpstype']) {
-//         case 'bookps':
-//             bookps($_POST, $connection);
-//             break;
-//     }
-//     header('Location: https://hancockpublishers.com/book-publishing/thank-you');
-// }
 ?>

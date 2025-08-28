@@ -15,7 +15,6 @@ use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 
-//Name Email Phone Message Form
 function contactForm($data, $connection)
 {
     // Required fields
@@ -1096,6 +1095,142 @@ function clean($string)
     $string = str_replace(' ', '-', $string);
 
     return preg_replace('/[^A-Za-z0-9\-]/', '', $string);
+}
+
+// Admin Authentication Functions (using environment variables)
+function adminLogin($email, $password)
+{
+    global $admin_email, $admin_password;
+    
+    if ($email === $admin_email && $password === $admin_password) {
+        if (session_status() === PHP_SESSION_NONE) {
+            session_start();
+        }
+        $_SESSION['admin_id'] = 1;
+        $_SESSION['admin_email'] = $admin_email;
+        $_SESSION['admin_name'] = 'Admin User';
+        return true;
+    }
+    return false;
+}
+
+function isAdminLoggedIn()
+{
+    if (session_status() === PHP_SESSION_NONE) {
+        session_start();
+    }
+    return isset($_SESSION['admin_id']);
+}
+
+function requireAdminAuth()
+{
+    if (!isAdminLoggedIn()) {
+        header('Location: /admin?login=required');
+        exit;
+    }
+}
+
+function adminLogout()
+{
+    if (session_status() === PHP_SESSION_NONE) {
+        session_start();
+    }
+    session_unset();
+    session_destroy();
+    header('Location: /admin');
+    exit;
+}
+
+// Admin CRUD Functions for Positions
+function addPosition($data, $connection)
+{
+    $name = $connection->real_escape_string($data['name'] ?? '');
+    $description = $connection->real_escape_string($data['description'] ?? '');
+    $image = $connection->real_escape_string($data['image'] ?? '');
+    $what_you_do = $connection->real_escape_string($data['what_you_do'] ?? '');
+    $who_you_are = $connection->real_escape_string($data['who_you_are'] ?? '');
+    $what_we_offer = $connection->real_escape_string($data['what_we_offer'] ?? '');
+    $extras = $connection->real_escape_string($data['extras'] ?? '');
+    $status = $connection->real_escape_string($data['status'] ?? 'active');
+
+    // Roles: accept textarea (one per line), CSV, or array
+    $rolesInput = $data['roles'] ?? '';
+    if (is_array($rolesInput)) {
+        $rolesArray = array_map('trim', $rolesInput);
+    } else {
+        $rolesArray = preg_split('/\r\n|\r|\n|,/', $rolesInput);
+        $rolesArray = array_map('trim', $rolesArray);
+    }
+    $rolesArray = array_values(array_filter($rolesArray, fn($v) => $v !== ''));
+    $rolesJson = $connection->real_escape_string(json_encode($rolesArray));
+
+    $query = "INSERT INTO positions 
+        (name, description, image, roles, what_you_do, who_you_are, what_we_offer, extras, status, created_at) 
+        VALUES 
+        ('$name', '$description', '$image', '$rolesJson', '$what_you_do', '$who_you_are', '$what_we_offer', '$extras', '$status', NOW())";
+
+    return $connection->query($query);
+}
+
+function updatePosition($id, $data, $connection)
+{
+    $id = (int)$id;
+    $name = $connection->real_escape_string($data['name'] ?? '');
+    $description = $connection->real_escape_string($data['description'] ?? '');
+    $image = $connection->real_escape_string($data['image'] ?? '');
+    $what_you_do = $connection->real_escape_string($data['what_you_do'] ?? '');
+    $who_you_are = $connection->real_escape_string($data['who_you_are'] ?? '');
+    $what_we_offer = $connection->real_escape_string($data['what_we_offer'] ?? '');
+    $extras = $connection->real_escape_string($data['extras'] ?? '');
+    $status = $connection->real_escape_string($data['status'] ?? 'active');
+
+    $rolesInput = $data['roles'] ?? '';
+    if (is_array($rolesInput)) {
+        $rolesArray = array_map('trim', $rolesInput);
+    } else {
+        $rolesArray = preg_split('/\r\n|\r|\n|,/', $rolesInput);
+        $rolesArray = array_map('trim', $rolesArray);
+    }
+    $rolesArray = array_values(array_filter($rolesArray, fn($v) => $v !== ''));
+    $rolesJson = $connection->real_escape_string(json_encode($rolesArray));
+    
+    $query = "UPDATE positions SET 
+        name = '$name', 
+        description = '$description', 
+        image = '$image', 
+        roles = '$rolesJson', 
+        what_you_do = '$what_you_do', 
+        who_you_are = '$who_you_are', 
+        what_we_offer = '$what_we_offer', 
+        extras = '$extras',
+        status = '$status',
+        updated_at = NOW()
+        WHERE id = $id";
+
+    return $connection->query($query);
+}
+
+function deletePosition($id, $connection)
+{
+    $id = (int)$id;
+    $query = "DELETE FROM positions WHERE id = $id";
+    return $connection->query($query);
+}
+
+function getAllPositionsAdmin($connection)
+{
+    $query = "SELECT * FROM positions ORDER BY created_at DESC";
+    $result = $connection->query($query);
+    $positions = [];
+    
+    if ($result && $result->num_rows > 0) {
+        while ($row = $result->fetch_assoc()) {
+            $row['roles'] = json_decode($row['roles'], true) ?: [];
+            $positions[] = $row;
+        }
+    }
+    
+    return $positions;
 }
 
 //GET CURRENT REQUEST
