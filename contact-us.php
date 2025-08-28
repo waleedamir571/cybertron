@@ -189,6 +189,7 @@
     </section>
 
 
+  <?php include 'partials/logos.php'; ?>
 
 
     <?php include 'partials/get.php'; ?>
