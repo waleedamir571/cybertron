@@ -108,7 +108,7 @@
 
         <!-- Left -->
         <div class="col-md-6 mb-4 mb-md-0 footer-branding">
-          <img src="assets/imgs/page/homepage1/logo.png" alt="">
+        <a href="index.php">  <img src="assets/imgs/page/homepage1/logo.png" alt=""></a>
           <p class="copyright-text">© 2025, Fourmetal ltd. UK, London. All rights reserved</p>
         </div>
 

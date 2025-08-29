@@ -134,6 +134,41 @@ video {
     box-shadow: 0 0 0 .25rem rgba(13, 110, 253, .25);
 }
 
+  .mobile-menu {
+    background: #fff;
+    position: absolute;
+    width: 100%;
+    top: 60px;
+    left: 0;
+    z-index: 999;
+  }
+
+  .mobile-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .mobile-menu ul li {
+    border-bottom: 1px solid #ddd;
+  }
+
+  .mobile-menu ul li a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: #000;
+  }
+
+  button#mobileMenuBtn
+
+ {
+    background: #5658BE;
+    border: 1px solid #5658BE;
+    height: 30px;
+}
+
+
 .btn:hover {
     color: white !important;
 }
@@ -1508,7 +1543,7 @@ h6,
 .font-md-bold,
 .font-sm-bold,
 .font-xs-bold {
-  font-family: "DM Sans", sans-serif;
+ 
   font-weight: bold !important;
 }
 
@@ -1554,7 +1589,7 @@ h6,
 .font-md,
 .font-sm,
 .font-xs {
-  font-family: "DM Sans", sans-serif;
+ 
   font-weight: 400;
 }
 
@@ -1829,7 +1864,7 @@ h6,
   height: 58px;
   border-radius: 50%;
   background-color: #DCE4EC;
-  font-family: "DM Sans", sans-serif;
+ 
 }
 
 .pagination li a.active,
@@ -2156,7 +2191,7 @@ body.dark-mode {
   color: #1E2022;
   font-size: 18px;
   line-height: 23px;
-  font-family: "DM Sans", sans-serif;
+ 
   opacity: 1;
 }
 
@@ -2164,7 +2199,7 @@ body.dark-mode {
   color: #1E2022;
   font-size: 18px;
   line-height: 23px;
-  font-family: "DM Sans", sans-serif;
+ 
   opacity: 1;
 }
 
@@ -2180,7 +2215,7 @@ body.dark-mode {
   color: #1E2022;
   font-size: 18px;
   line-height: 23px;
-  font-family: "DM Sans", sans-serif;
+ 
   padding: 20px 15px;
   border-radius: 12px;
   font-weight: 700;
@@ -2194,7 +2229,7 @@ body.dark-mode {
   color: #1E2022;
   font-size: 18px;
   line-height: 23px;
-  font-family: "DM Sans", sans-serif;
+ 
   opacity: 1;
 }
 
@@ -2202,7 +2237,7 @@ body.dark-mode {
   background-color: #171819;
   color: #F1F1F1;
   border-color: #535455; */
-}
+
 
 .dark-mode .is-mode .form-control::-moz-placeholder {
   color: #CBCFD3;
@@ -2925,7 +2960,7 @@ body {
   border-radius: 100px;
   color: #ffffff;
   padding: 10px 25px 11px 25px;
-  font-family: "DM Sans", sans-serif;
+ 
   font-size: 16px;
   line-height: 16px;
   font-weight: 700;
@@ -2940,7 +2975,7 @@ body {
   border-radius: 100px;
   color: #ffffff;
   padding: 23px 25px 23px 25px;
-  font-family: "DM Sans", sans-serif;
+ 
   font-size: 20px;
   line-height: 20px;
   font-weight: 700;
@@ -2955,7 +2990,7 @@ body {
   border-radius: 8px;
   color: #ffffff;
   padding: 21px 30px;
-  font-family: "DM Sans", sans-serif;
+ 
   font-size: 20px;
   line-height: 20px;
   font-weight: 700;
@@ -2974,7 +3009,7 @@ body {
   border-radius: 8px;
   color: #0C0D0E;
   padding: 21px 30px;
-  font-family: "DM Sans", sans-serif;
+ 
   font-size: 20px;
   line-height: 20px;
   font-weight: 700;
@@ -2999,7 +3034,7 @@ body {
   width: -moz-max-content;
   width: max-content;
   color: #ffffff;
-  font-family: "DM Sans", sans-serif;
+ 
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -3018,7 +3053,7 @@ body {
   padding: 5px 12px;
   justify-content: center;
   align-items: center;
-  font-family: "DM Sans", sans-serif;
+ 
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -4572,7 +4607,7 @@ body {
   font-size: 18px;
   line-height: 28px;
   font-weight: 400;
-  font-family: "DM Sans", sans-serif;
+ 
 }
 
 .card-discover {
@@ -4660,7 +4695,7 @@ body {
   font-size: 18px;
   line-height: 28px;
   font-weight: 400;
-  font-family: "DM Sans", sans-serif;
+ 
   text-align: center;
 }
 
@@ -4754,7 +4789,7 @@ body {
 
 .card-icon-text .card-info .card-desc {
   color: #6C7074;
-  font-family: "DM Sans", sans-serif;
+ 
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -8722,7 +8757,7 @@ footer a {
 
 .box-why-us {
   padding: 100px 0px 100px 0px;
-  background-image: url(../imgs/page/web/bgblue.png);
+  /* background-image: url(../imgs/page/web/bgblue.png); */
   background-repeat: no-repeat;
   /* background-position: bottom left;
   position: relative; */
@@ -9880,7 +9915,7 @@ footer a {
   font-size: 20px;
   line-height: 28px;
   font-weight: bold;
-  font-family: "DM Sans", sans-serif;
+ 
   color: #014FE5;
   text-decoration: none;
   margin-left: 10px;
@@ -10358,7 +10393,7 @@ footer a {
 
 .text-lg-brand-1 {
   color: #3CF2F2;
-  font-family: "DM Sans", sans-serif;
+ 
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -10411,7 +10446,7 @@ footer a {
 .content-product p {
   font-size: 18px;
   line-height: 30px;
-  font-family: "DM Sans", sans-serif;
+ 
   font-weight: 400;
   margin-bottom: 29px;
 }
@@ -10429,7 +10464,7 @@ footer a {
 .content-product ul li {
   font-size: 18px;
   line-height: 30px;
-  font-family: "DM Sans", sans-serif;
+ 
   font-weight: 400;
 }
 
@@ -10441,7 +10476,7 @@ footer a {
 .list-dot li {
   font-size: 16px;
   line-height: 28px;
-  font-family: "DM Sans", sans-serif;
+ 
   font-weight: 400;
   color: #6C7074;
 }
@@ -14630,6 +14665,270 @@ footer a {
     max-height: 40px;
   }
 }
+
+
+@media (min-width: 320px) and  (max-width: 480px) {
+
+  .job1 {
+    color: #FFF;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 98.1%;
+}
+
+.act {
+    color: #FFF;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+
+
+.job2 {
+    color: #FFF;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 98.1%;
+}
+
+  .header-logo {
+    width: 40%;
+}
+
+    .display-5 {
+        font-size: 40px;
+        line-height: 1.3;
+    }
+
+    .btn {
+    border-radius: 64px;
+    padding: 19px 19px;
+    position: relative;
+    color: #5658BE;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.cybertron-section {
+    padding: 20px 0 20px;
+    /* min-height: 97vh; */
+}
+.our {
+    color: #FFF;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.number {
+    color: #141414;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.call {
+    color: #AAA;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-top: 10px;
+}
+
+.contact {
+    color: #141414;
+    font-size: 40px;
+   
+}
+
+label {
+    color: #000;
+    font-size: 20px;
+    
+}
+
+.form-control {
+    color: #1E2022;
+    font-size: 18px;
+    line-height: 23px;
+   
+    padding: 10px 10px;
+    border-radius: 12px;
+    font-weight: 700;
+    border-radius: 10.776px;
+    border: 0.674px solid rgba(217, 217, 217, 0.80);
+    background: rgba(239, 239, 239, 0.30);
+}
+
+
+.home {
+    color: #141414;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.testimonial-text {
+    color: #FFF;
+    font-size: 19px;
+  
+}
+
+    .cta-section {
+        background: url(../imgs/page/homepage1/cta.png) no-repeat;
+        background-size: 100% 100%;
+        color: white;
+        padding: 50px 15px;
+        border-radius: 22px;
+        height: auto;
+    }
+
+
+.btn.btn-default2 {
+    padding: 15px 30px;
+    border-radius: 100px;
+    /* background-color: #0C0D0E; */
+    color: #FFFFFF;
+    font-size: 19px;
+    line-height: 20px;
+    font-weight: 700;
+    border-radius: 67px;
+    background: #5658BE;
+}
+
+.banner-homepage1 {
+    /* background-color: #014FE5; */
+    background-image: url(../imgs/page/homepage1/sec11.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    padding: 250px 0px 400px 0px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 1136px;
+    z-index: 1;
+}
+
+.lorem {
+    color: #141414;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 98%;
+    letter-spacing: 0.72px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.2s ease;
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 300;
+}
+
+.action {
+    color: #FFF;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 98%;
+    letter-spacing: 0.96px;
+}
+
+.number1 {
+  
+    font-size: 45px;
+  
+}
+
+.cost {
+    color: #FFF;
+    font-size: 30.14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 98.1%;
+}
+
+
+
+.head {
+    color: #FFF;
+    /* font-family: Urbanist; */
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 1.4;
+}
+
+    .box-services {
+        padding-bottom: 50px;
+        padding-top: 40px;
+    }
+
+        .btn.btn-default {
+        padding: 15px 20px;
+        font-size: 15px;
+    }
+
+.create {
+    color: #141414;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
+.cybertron-heading {
+    color: #FFF !important;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.92px;
+}
+
+.bg-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+    transform: translateY(20px);
+    transition: transform 2s ease-out;
+}
+
+.pt-80 {
+    padding-top: 20px !important;
+}
+
+.client-name {
+    color: #FFF;
+    /* font-family: Urbanist; */
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 116.97%;
+}
+
+
+}
+
 
 @media (max-width: 349.98px) {
   .perfect-scroll {

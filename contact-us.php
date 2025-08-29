@@ -199,24 +199,8 @@
         }
     </script>
 
-    <!-- <style>
-        .file-name {
-            display: none;
-            font-size: 14px;
-            font-weight: 500;
-        }
-        .upload-box {
-            cursor: pointer;
-            border: 2px dashed #5658BE;
-            padding: 20px;
-            text-align: center;
-            border-radius: 8px;
-            transition: background-color 0.3s;
-        }
-        .upload-box:hover {
-            background-color: #f8f9ff;
-        }
-    </style> -->
+  <?php include 'partials/logos.php'; ?>
+
 
     <?php include 'partials/get.php'; ?>
 </main>

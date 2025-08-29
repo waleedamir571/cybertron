@@ -1,4 +1,9 @@
 <?php include 'partials/header.php'; ?>
+<?php
+require_once 'backend/config/dbc.php';
+require_once 'backend/function/functions.php';
+$positions = getActiveJobPositions($connection);
+?>
 <main class="main">
     <section class="section banner-mode">
 
@@ -144,54 +149,21 @@
                 <div class="pb-45" data-aos="fade-right">
                     <p class="head">Open <span class="purple">Positions </span> <br>
                     </p>
-
-
-
-
                 </div>
                 <div class="row">
-                    <a href="job-details.php">
-                        <div class="col-sm-12 pb-50" data-aos="fade-right">
-                            <!-- <img class="h-99" src="assets/imgs/page/homepage1/m1.png" alt=""> -->
-                            <p class="job1 "> Video Editor & Creator Internships</p>
-                            <p class="job2 pb-20 pt-20">Join our team as a Video Editor & Creator Intern to gain
-                                hands-on
-                                experience crafting engaging video content for diverse platforms.</p>
-                            <br>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="1920" height="2" viewBox="0 0 1920 2"
-                                fill="none">
-                                <path d="M0 1H1920" stroke="#AAAAAA" stroke-width="0.5" />
-                            </svg>
-
-                        </div>
-                    </a>
-                    <div class="col-sm-12 pb-50" data-aos="fade-right">
-                        <!-- <img class="h-99" src="assets/imgs/page/homepage1/m1.png" alt=""> -->
-                        <p class="job1 "> UI/UX Design Intern </p>
-                        <p class="job2 pb-20 pt-20">reate user-friendly wireframes, prototypes, and design solutions for
-                            web and mobile apps. Collaborate with designers and developers to deliver great user
-                            experiences.</p>
-                        <br>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="1920" height="2" viewBox="0 0 1920 2"
-                            fill="none">
-                            <path d="M0 1H1920" stroke="#AAAAAA" stroke-width="0.5" />
-                        </svg>
-
-                    </div>
-                    <div class="col-sm-12 pb-50" data-aos="fade-right">
-                        <!-- <img class="h-99" src="assets/imgs/page/homepage1/m1.png" alt=""> -->
-                        <p class="job1 "> Junior Web Developer</p>
-                        <p class="job2 pb-20 pt-20">Work with our tech team to build and maintain websites and web apps.
-                            Grow your coding skills and gain real-world development experience in a collaborative
-                            environment.</p>
-                        <br>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="1920" height="2" viewBox="0 0 1920 2"
-                            fill="none">
-                            <path d="M0 1H1920" stroke="#AAAAAA" stroke-width="0.5" />
-                        </svg>
-
-                    </div>
-
+                    <?php foreach ($positions as $p): ?>
+                         <a href="job-details.php?id=<?= (int)$p['id'] ?>">
+                            <div class="col-sm-12 pb-50" data-aos="fade-right">
+                                <p class="job1 "><?= htmlspecialchars($p['name']) ?></p>
+                                <p class="job2 pb-20 pt-20"><?= htmlspecialchars($p['description']) ?></p>
+                                <br>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="1920" height="2" viewBox="0 0 1920 2"
+                                    fill="none">
+                                    <path d="M0 1H1920" stroke="#AAAAAA" stroke-width="0.5" />
+                                </svg>
+                            </div>
+                        </a>
+                    <?php endforeach; ?>
                 </div>
 
 
