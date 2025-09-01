@@ -40,8 +40,12 @@
 
             <p class="act pb-45">We act as a strategic partner, looking into the future and creating a foundation for
               growth and scalability.</p>
+  
 
+
+              <div class="ptb-22">
             <a class="btn btn-default grow-up" href="#">Get in Touch</a>
+            </div>
           </div>
         </div>
       </div>
@@ -123,7 +127,7 @@
 
           </div>
           <div class="col-sm-6" data-aos="fade-left">
-            <div class="row">
+            <div class="row mobilenone" >
               <div class="col-md-12">
                 <!-- <p class="cost "> Impressions</p>
                     <p class="number1 pb-20 pt-20">+356%</p> -->
