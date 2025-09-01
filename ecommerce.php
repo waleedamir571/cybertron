@@ -54,7 +54,7 @@
     <section class="cybertron-section">
         <div class="container-fluid">
             <div class="row mb-4">
-                <div class="col-md-6 " data-aos="fade-right">
+                <div class="col-md-7" data-aos="fade-right">
                     <p class="head pb-45">End-to-End <span class="purple">E-Commerce <br> Solutions </p>
 
 

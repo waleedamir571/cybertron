@@ -361,7 +361,7 @@ bgVideo.addEventListener("canplaythrough", function () {
     setTimeout(function () {
         pageLoader.style.display = "none";
         bgVideo.play(); // ensure video plays
-    }, 2000);
+    }, 1000);
 });
 
 

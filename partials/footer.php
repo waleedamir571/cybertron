@@ -4,11 +4,12 @@
       <div class="row align-items-baseline">
         <div class="col-md-6 ">
           <!-- <h1 class="text-up"><span class="stroke-900 no-stroke">Services</span></h1> -->
-          <p class="home"><span class="purple">Home,</span> What we Do, Capabilities
-            Digital Transformation, How we Deliver,Join Cybertron</p>
+          <p class="home"><span class="purple">Home,</span> See Our Work, Explore Capabilities, Digital Innovation,
+            Delivery, Join Cybertron
+          </p>
           <br>
-          <p class="lorem">Figma ipsum component variant main layer. Background follower figjam list opacity slice
-            edit stroke.</p>
+          <p class="lorem">We help teams create websites, apps, and software that are simple, smart, and grow with you.
+          </p>
         </div>
         <div class="col-md-2 offset-md-1">
           <!-- <h1 class="text-up"><span class="stroke-900 no-stroke">Services</span></h1> -->
@@ -55,7 +56,7 @@
       </div>
       <div class="row pt-45">
         <div class="footer-section ">
-       
+
           <p class="action pb-20">Digital Transformation</p>
           <ul class="footer-links">
             <li><a href="web-app-development.php">Web Development</a></li>
@@ -72,7 +73,7 @@
             <li><a href="ui-ux-design.php">UI/UX Design</a></li>
             <li><a href="ecommerce.php">E-Commerce</a></li>
             <li><a href="design-and-development.php">Design & Development</a></li>
-           
+
           </ul>
         </div>
 
@@ -80,10 +81,10 @@
         <div class="footer-section">
           <!-- <h4>Resources</h4> -->
           <ul class="footer-links  pt-70">
-            <li><a href="">Digital Marketing</a></li>
-            <li><a href="blog-2.">SEO Optimization</a></li>
-            <li><a href="blog-3.">Content Strategy</a></li>
-        
+            <li><a href="devops.php">Devops </a></li>
+            <li><a href="maintainance-and-support.php">Maintenance & Support</a></li>
+            <li><a href="staff-augmentation.php">Staff Augmentations</a></li>
+
           </ul>
         </div>
 
@@ -94,7 +95,7 @@
             <li><a href="blog.">News & Events</a></li>
             <li><a href="blog-2.">Project Management</a></li>
             <li><a href="join.php">Jobs & Careers</a></li>
-           
+
           </ul>
         </div>
       </div>
@@ -108,7 +109,7 @@
 
         <!-- Left -->
         <div class="col-md-6 mb-4 mb-md-0 footer-branding">
-        <a href="index.php">  <img src="assets/imgs/page/homepage1/logo.png" alt=""></a>
+          <a href="index.php"> <img src="assets/imgs/page/homepage1/logo.svg" alt=""></a>
           <p class="copyright-text">© 2025, Fourmetal ltd. UK, London. All rights reserved</p>
         </div>
 
@@ -171,12 +172,12 @@
 
 <script>
   // DOM load hone ke baad video ko turant play karne ke liye
-  document.addEventListener("DOMContentLoaded", function() {
+  document.addEventListener("DOMContentLoaded", function () {
     const video = document.getElementById('bgVideo');
-    
+
     // video load hone ke baad turant play karne ki koshish
     video.load();
-    video.play().catch(function(error) {
+    video.play().catch(function (error) {
       console.log("Autoplay failed:", error);
     });
   });
@@ -249,7 +250,7 @@
   }
 </script>
 
-<script>
+<!-- <script>
   document.addEventListener("DOMContentLoaded", function () {
     const section = document.getElementById("hero-section");
 
@@ -257,11 +258,11 @@
       function (entries, observer) {
         entries.forEach(function (entry) {
           if (entry.isIntersecting) {
-            // Delay 1 second (1000 ms) before adding class
+           
             setTimeout(() => {
               section.classList.add("expanded");
-            }, 2000); // yahan ap apni marzi ka time (ms me) set karen
-            observer.disconnect(); // Only run once
+            }, 2000); 
+            observer.disconnect(); 
           }
         });
       },
@@ -270,7 +271,7 @@
 
     observer.observe(section);
   });
-</script>
+</script> -->
 
 
 <script>
@@ -307,6 +308,11 @@
     spaceBetween: 20,
     loop: true,
     grabCursor: true,
+    autoplay: {
+      delay: 2000,               // 1 second per slide
+      disableOnInteraction: false // continue autoplay even if user swipes
+    },
+    speed: 800, // transition speed (ms), adjust for smooth effect
     pagination: {
       el: ".swiper-pagination",
       clickable: true,
@@ -322,6 +328,7 @@
       1024: { slidesPerView: 4 }
     }
   });
+
 </script>
 <script>
   const swiper1 = new Swiper(".mySwiper1", {

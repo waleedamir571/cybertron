@@ -1,4 +1,4 @@
-  <section class="section pt-70 pb-50 bg-900">
+  <section class="section pt-70 pb-50 bg-900 mobilenone">
    
           
         <div class="container-fluid">

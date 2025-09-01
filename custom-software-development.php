@@ -43,8 +43,10 @@
                             We build mobile apps that deliver real business impact. From native and cross-platform
                             development to secure enterprise solutions and seamless integrations
                         </p>
-                        <br><br>
+                        <br>
+                      
                         <a class="btn btn-default grow-up" href="#">Get in Touch</a>
+                       
                     </div>
                 </div>
             </div>
@@ -86,8 +88,14 @@
                                 a collaborative approach to deliver secure, scalable, and high-performance digital
                                 solutions.</p>
 
+
+                                <div class="ptb-22">
                                 <a class="btn btn-default grow-up" href="#">Get in Touch</a>
+                                </div>
+                                
                         </div>
+                       
+
 
                         <div class="col-md-6 " data-aos="fade-left">
                             <div class="row">

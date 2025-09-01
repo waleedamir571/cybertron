@@ -1,6 +1,6 @@
- <section class="section bg-900 pt-50">
-    <div class="container-fluid">
- <div class="cta-section">
+<section class="section bg-900 pt-50">
+  <div class="container-fluid">
+    <div class="cta-section">
 
       <div class="row align-items-center">
         <!-- Left Column: Text -->
@@ -10,8 +10,9 @@
           </p>
           <br>
           <br>
-          <p class="lorem white pb-50">We’re excited to hear your ideas and help turn them into reality. Reach out
-            to Cybertron Labs, and let’s build something great—together.</p>
+          <p class="lorem white pb-50">Your ideas deserve action. Reach out to Cybertron Labs, and let’s craft something
+            bold, smart, and built to grow.
+          </p>
         </div>
         <!-- Right Column: Button -->
 
@@ -25,5 +26,5 @@
         </div>
       </div>
     </div>
-    </div>
-  </section>
+  </div>
+</section>

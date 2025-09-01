@@ -18,13 +18,16 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Montserrat:ital@0;1&family=Raleway:ital,wght@0,100..900;1,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
     rel="stylesheet">
+   <!-- <link href="https://db.onlinewebfonts.com/c/xxxxxxxxxxxxxxxx?family=AkiraExpanded" rel="stylesheet"> -->
+
+
   <title>Cybertron-Labs</title>
   <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
 </head>
 
 <body class="dark-mode page-transition alith-magic-cursor">
   <div class="page-loader">
-    <div class="page-loader-logo hide-animation"><img alt="neuron" src="assets/imgs/page/homepage1/logo.png"></div>
+    <div class="page-loader-logo hide-animation"><img alt="neuron" src="assets/imgs/page/homepage1/logo.svg"></div>
     <div class="bar"></div>
     <div class="bar"></div>
     <div class="bar"></div>
@@ -50,7 +53,7 @@
       
       <!-- Logo -->
       <div class="header-logo">
-        <a href="index.php"><img src="assets/imgs/page/homepage1/logo.png" alt="neuron" class="img-900"></a>
+        <a href="index.php"><img src="assets/imgs/page/homepage1/logo.svg" alt="neuron" class="img-900"></a>
       </div>
 
       <!-- Desktop Menu -->
