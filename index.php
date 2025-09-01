@@ -419,7 +419,7 @@
             </div> -->
         <div class="row align-items-center pb-80">
           <div class="col-md-5" data-aos="fade-right">
-            <img src="assets/imgs/page/homepage1/in.png" alt="">
+            <img class="mobilenone" src="assets/imgs/page/homepage1/in.png" alt="">
           </div>
           <div class="col-md-7" data-aos="fade-left">
             <p class="head">Driven by <span class="purple">Innovation </span> <br>
