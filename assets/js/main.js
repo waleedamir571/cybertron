@@ -352,17 +352,17 @@ var logoLoading = document.querySelector(".page-loader-logo img");
 var pageLoader = document.querySelector(".page-loader");
 var bgVideo = document.getElementById("bgVideo");
 
-// Video ready hone ka wait karo
-bgVideo.addEventListener("canplaythrough", function () {
-    // Logo zoom 2 second me
-    gsap.to(logoLoading, { duration: 2, scale: 1.5 });
 
-    // 2 second baad loader hide kar do
-    setTimeout(function () {
-        pageLoader.style.display = "none";
-        bgVideo.play(); // ensure video plays
-    }, 1000);
-});
+// bgVideo.addEventListener("canplaythrough", function () {
+    
+//     gsap.to(logoLoading, { duration: 2, scale: 1.5 });
+
+  
+//     setTimeout(function () {
+//         pageLoader.style.display = "none";
+//         bgVideo.play(); 
+//     }, 1000);
+// });
 
 
     // ================================================================

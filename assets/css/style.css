@@ -380,6 +380,11 @@ button#mobileMenuBtn {
   line-height: normal;
 }
 
+.btn.btn-default2:hover {
+
+  background: white;
+}
+
 .card-custom p {
 
   color: #FFF;
@@ -556,12 +561,12 @@ button#mobileMenuBtn {
 }
 
 .uploa {
-    color: #000;
-    text-align: center;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
+  color: #000;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
 
 .upload-box {
@@ -14866,57 +14871,60 @@ footer a {
 }
 
 a:hover {
-    color: #5658BE !important;
+  color: #5658BE !important;
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
 
+  .section-content {
+    position: relative;
+    z-index: 2;
+    height: 75%;
 
-  .card-custom
+  }
 
- {
+
+  .card-custom {
     padding: 20px;
-  
-}
 
-.feature {
-   
+  }
+
+  .feature {
+
     font-size: 14px;
-   
-}
 
-.accordion-button {
-  
+  }
+
+  .accordion-button {
+
     font-size: 14px !important;
-   
-}
 
-  
-.card-custom h4 {
-    
+  }
+
+
+  .card-custom h4 {
+
     font-size: 25px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-}
+  }
 
-.ptb-22 {
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
+  .ptb-22 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
 
   .mt-65 {
     margin-top: 25px !important;
-}
+  }
 
-    .box-content-banner {
-        padding: 100px 0px 10px 0px;
-    }
+  .box-content-banner {
+    padding: 100px 0px 10px 0px;
+  }
 
 
-  .btn.btn-default1
-
- {
+  .btn.btn-default1 {
     border-radius: 100px;
     border-radius: 40px;
     color: #474747 !important;
@@ -14927,7 +14935,7 @@ a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+  }
 
   .mobile-menu ul li a {
     display: block;
@@ -14956,10 +14964,8 @@ a:hover {
   }
 
   .pb-45 {
-    padding-bottom: 0px !important;
-}
-
-
+    padding-bottom: 10px !important;
+  }
 
   .startup {
     color: #FFF;
@@ -14996,6 +15002,7 @@ a:hover {
   .box-content-banner1 {
     position: relative;
     padding: 125px 0px 0px 0px;
+    height: 96vh;
   }
 
   .act {
@@ -15169,7 +15176,7 @@ a:hover {
 
   .action {
     color: #FFF;
-    font-size: 17px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 600;
     line-height: 1.4;
@@ -15225,15 +15232,15 @@ a:hover {
 
 
 
-      .head {
-        color: #FFF;
-        /* font-family: Urbanist; */
-        font-size: 25px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 1.4;
-        padding-top: 25px;
-    }
+  .head {
+    color: #FFF;
+    /* font-family: Urbanist; */
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.4;
+    padding-top: 25px;
+  }
 
   .box-services {
     padding-bottom: 30px;
@@ -15245,22 +15252,38 @@ a:hover {
     font-size: 15px;
   }
 
-     .create {
-        color: #141414;
-        font-size: 21px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: normal;
-        padding-bottom: 10px;
-    }
+  .create {
+    color: #141414;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-bottom: 10px;
+  }
+
+
+
+  .overlay-text p {
+    color: #FFF;
+    font-size: 17px;
+
+  }
+
+  .overlay-text h3 {
+    color: #FFF;
+    font-size: 22px;
+
+    line-height: 1.4;
+
+  }
 
 
   .cybertron-heading {
     color: #FFF !important;
-    font-size: 22px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
+    line-height: 1.3;
     letter-spacing: 1.92px;
   }
 
@@ -15269,11 +15292,12 @@ a:hover {
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 75%;
     object-fit: cover;
     z-index: 1;
     transform: translateY(20px);
     transition: transform 2s ease-out;
+    border-radius: 10px;
   }
 
   .pt-80 {

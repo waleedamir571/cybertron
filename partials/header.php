@@ -10,7 +10,7 @@
   <meta name="description" content="Index page">
   <meta name="keywords" content="index, page">
   <meta name="author" content="">
-  <link rel="shortcut icon" type="image/x-icon" href="assets/imgs/template/favicon.svg">
+  <link rel="shortcut icon" type="image/x-icon" href="assets/imgs/template/fav.png">
   <link href="assets/css/style.css?v=2.0.0" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,7 +27,7 @@
 
 <body class="dark-mode page-transition alith-magic-cursor">
   <div class="page-loader">
-    <div class="page-loader-logo hide-animation"><img alt="neuron" src="assets/imgs/page/homepage1/logo.svg"></div>
+    <div class="page-loader-logo "><img alt="neuron" src="assets/imgs/page/homepage1/logo.svg"></div>
     <div class="bar"></div>
     <div class="bar"></div>
     <div class="bar"></div>
