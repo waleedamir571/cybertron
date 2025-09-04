@@ -1,0 +1,22 @@
+RewriteEngine On
+
+# Remove .php extension
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php [L]
+
+# Add trailing slash if it's a directory without slash
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^(.+[^/])$ $1/ [R=301,L]
+
+# Internally rewrite to .php if missing
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*)$ $1.php [L]
+
+# ✅ Custom 404 error handling — redirect to full URL
+ErrorDocument 404 https://cybertronlabs.com/404
+
+# (Optional) If someone tries to directly access /404/ path
+RewriteCond %{REQUEST_URI} ^/404/?$
+RewriteRule ^(.*)$ https://cybertronlabs.com/404 [L,R=302]

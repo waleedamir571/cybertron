@@ -59,9 +59,9 @@
 
           <p class="action pb-20">Digital Transformation</p>
           <ul class="footer-links">
-            <li><a href="web-app-development.php">Web Development</a></li>
-            <li><a href="mobile-app-development.php">App Development</a></li>
-            <li><a href="custom-software-development.php">Custom Software Dev</a></li>
+            <li><a href="web-app-development">Web Development</a></li>
+            <li><a href="mobile-app-development">App Development</a></li>
+            <li><a href="custom-software-development">Custom Software Dev</a></li>
 
           </ul>
         </div>
@@ -70,9 +70,9 @@
         <div class="footer-section">
           <!-- <h4>Services</h4> -->
           <ul class="footer-links pt-70">
-            <li><a href="ui-ux-design.php">UI/UX Design</a></li>
-            <li><a href="ecommerce.php">E-Commerce</a></li>
-            <li><a href="design-and-development.php">Design & Development</a></li>
+            <li><a href="ui-ux-design">UI/UX Design</a></li>
+            <li><a href="ecommerce">E-Commerce</a></li>
+            <li><a href="design-and-development">Design & Development</a></li>
 
           </ul>
         </div>
@@ -81,9 +81,9 @@
         <div class="footer-section">
           <!-- <h4>Resources</h4> -->
           <ul class="footer-links  pt-70">
-            <li><a href="devops.php">Devops </a></li>
-            <li><a href="maintainance-and-support.php">Maintenance & Support</a></li>
-            <li><a href="staff-augmentation.php">Staff Augmentations</a></li>
+            <li><a href="devops">Devops </a></li>
+            <li><a href="maintainance-and-support">Maintenance & Support</a></li>
+            <li><a href="staff-augmentation">Staff Augmentations</a></li>
 
           </ul>
         </div>
@@ -94,7 +94,7 @@
           <ul class="footer-links pt-70">
             <li><a href="blog.">News & Events</a></li>
             <li><a href="blog-2.">Project Management</a></li>
-            <li><a href="join.php">Jobs & Careers</a></li>
+            <li><a href="join">Jobs & Careers</a></li>
 
           </ul>
         </div>
@@ -273,6 +273,17 @@
   });
 </script> -->
 
+
+<script>
+  // Saare button select karo jinki class "btn btn-default" hai
+  document.querySelectorAll(".btn.btn-default").forEach(function(button) {
+    button.addEventListener("click", function() {
+      // Contact Us page par redirect karo
+      window.location.href = "contact-us";  
+      // Agar page ka URL alag hai to "/contact-us" ki jagah apna sahi link daalna
+    });
+  });
+</script>
 
 <script>
   const loopContainer = document.querySelector('.loop-container');

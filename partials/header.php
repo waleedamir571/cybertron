@@ -51,9 +51,9 @@
   <div class="container-fluid">
     <div class="main-header d-flex justify-content-between align-items-center">
       
-      <!-- Logo -->
+      <!-- Logo -->     
       <div class="header-logo">
-        <a href="index.php"><img src="assets/imgs/page/homepage1/logo.svg" alt="neuron" class="img-900"></a>
+        <a href="./"><img src="assets/imgs/page/homepage1/logo.svg" alt="neuron" class="img-900"></a>
       </div>
 
       <!-- Desktop Menu -->
@@ -61,11 +61,11 @@
 
          <div class="bgh">
         <ul class="main-menu">
-          <li><a href="index.php">Home</a></li>
-          <li><a href="#case.php">What We Do</a></li>
-          <li><a href="who-we-are.php">Who We Are</a></li>
+          <li><a href="/">Home</a></li>
+          <li><a href="#case">What We Do</a></li>
+          <li><a href="who-we-are">Who We Are</a></li>
           <li><a href="#Blog">How we Deliver</a></li>
-          <li><a href="join.php">Join Cybertron</a></li>
+          <li><a href="join">Join Cybertron</a></li>
         </ul>
         </div>
       </nav>
@@ -77,7 +77,7 @@
 
       <!-- Get in Touch Button -->
       <div class="header-account d-none d-xl-block">
-        <a href="contact-us.php" class="btn btn-default grow-up">Get in Touch</a>
+        <a href="contact-us" class="btn btn-default grow-up">Get in Touch</a>
       </div>
 
     </div>
@@ -86,12 +86,12 @@
   <!-- Mobile Menu -->
   <div id="mobileMenu" class="mobile-menu d-none">
     <ul>
-      <li><a href="index.php">Home</a></li>
-      <li><a href="#case.php">What We Do</a></li>
-      <li><a href="who-we-are.php">Who We Are</a></li>
+      <li><a href="index">Home</a></li>
+      <li><a href="#case">What We Do</a></li>
+      <li><a href="who-we-are">Who We Are</a></li>
       <li><a href="#Blog">How we Deliver</a></li>
-      <li><a href="join.php">Join Cybertron</a></li>
-      <li><a href="contact-us.php">Get in Touch</a></li>
+      <li><a href="join">Join Cybertron</a></li>
+      <li><a href="contact-us">Get in Touch</a></li>
     </ul>
   </div>
 </header>

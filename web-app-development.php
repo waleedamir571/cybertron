@@ -8,7 +8,7 @@
             <div class="container-fluid">
                 <div class="row mb-4" data-aos="fade-right">
                     <div class="col-md-10 ">
-                        <p class="head pb-45">Building <span class="purple">Seamless </span>
+                        <p class="head pb-45">Building <span class="purple">Seamless </span> <br>
                             <span class="bold">Experiences</span>
                         </p>
 

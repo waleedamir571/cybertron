@@ -28,8 +28,8 @@
                     with <span class="bold">Cybertron</span>
                   </h1>
                   <div class="d-flex gap-3 mt-4">
-                    <a href="#" class="btn btn-light fw-semibold">Get in Touch</a>
-                    <a href="#" class="btn btn-outline-light1">Our Services</a>
+                    <a href="contact-us" class="btn btn-light fw-semibold">Get in Touch</a>
+                    <a href="#services" class="btn btn-outline-light1">Our Services</a>
                   </div>
                 </div>
                 <!-- Right Column -->
@@ -75,7 +75,7 @@
 
             </p>
             <br><br>
-            <a class="btn btn-default grow-up" href="#">Explore Cybertron</a>
+            <a class="btn btn-default grow-up" href="who-we-are">Explore Cybertron</a>
           </div>
         </div>
       </div>
@@ -83,7 +83,7 @@
   </section>
 
 
-  <section class="section is-mode ">
+  <section class="section is-mode " id="services">
     <div class="box-services bg-0 box-projects">
       <div class="container-fluid">
         <div class="row align-items-baseline">
@@ -100,7 +100,7 @@
             </p>
             <br>
             <br>
-            <a class="btn btn-default grow-up" href="#">About Us</a>
+            <a class="btn btn-default grow-up" href="who-we-are">About Us</a>
           </div>
         </div>
       </div>
@@ -437,7 +437,7 @@
               solves real problems.
 
             </p>
-            <a class="btn btn-default grow-up" href="#">Get in Touch</a>
+            <a class="btn btn-default grow-up" href="contact-us">Get in Touch</a>
           </div>
         </div>
 

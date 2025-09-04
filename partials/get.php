@@ -22,7 +22,7 @@
 
         <!-- Right Column: Button -->
         <div class="col-md-4 offset-md-8 " data-aos="fade-left">
-          <a href="#" class="btn btn-default2 grow-up">Book a Consultation</a>
+          <a href="contact-us" class="btn btn-default2 grow-up">Book a Consultation</a>
         </div>
       </div>
     </div>
