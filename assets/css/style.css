@@ -149,6 +149,10 @@ video {
   color: white;
 }
 
+.pb-15{
+  padding-bottom: 15px;
+}
+
 .fintech-banner1 {
   position: relative;
   background: url(../imgs/page/homepage1/f41.png) no-repeat center center;
@@ -14875,11 +14879,35 @@ footer a {
   }
 }
 
+.job4 {
+    color: #FFF;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 98.1%;
+}
+
 a:hover {
   color: #5658BE !important;
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
+
+  .footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 30px;
+}
+
+      .job4 {
+        color: #FFF;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 200;
+        line-height: 1.3;
+    }
 
   .section-content {
     position: relative;
@@ -14977,11 +15005,9 @@ a:hover {
     font-size: 28px;
   }
 
-  .testimonial-card {
-
-    width: 350px;
-
-  }
+      .testimonial-card {
+        width: 375px;
+    }
 
   .box-why-us-top1 {
     padding: 0px 40px 30px 0px;
@@ -14996,13 +15022,16 @@ a:hover {
     padding-top: 35px !important;
   }
 
-  .job1 {
-    color: #FFF;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 200;
-    line-height: 98.1%;
-  }
+     .job1
+
+ {
+        color: #FFF;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 200;
+        line-height: 1.3;
+    }
+
 
   .box-content-banner1 {
     position: relative;
@@ -15010,15 +15039,13 @@ a:hover {
     height: 96vh;
   }
 
-  .act {
-    color: #FFF;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: normal;
-  }
-
-
+    .act {
+        color: #FFF;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 1.3;
+    }
 
   .job2 {
     color: #FFF;
@@ -15032,10 +15059,12 @@ a:hover {
     width: 40%;
   }
 
-  .display-5 {
-    font-size: 26px;
-    line-height: 1.3;
-  }
+     .display-5 {
+        font-size: 26px;
+        line-height: 1.3;
+        font-weight: 700;
+    }
+
 
   .btn {
     border-radius: 64px;
@@ -15062,15 +15091,16 @@ a:hover {
   }
 
   .number {
-    color: #141414;
+    color: #AAA;
     font-size: 20px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     line-height: normal;
   }
 
   .call {
-    color: #AAA;
+    color: #141414;
+    /* color: #AAA; */
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -15105,14 +15135,13 @@ a:hover {
   }
 
 
-  .home {
-    color: #141414;
-    font-size: 19px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: normal;
-    /* letter-spacing: 0.4px; */
-  }
+      .home {
+        color: #141414;
+        font-size: 19px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+      }
 
 
   .testimonial-text {
@@ -15135,17 +15164,16 @@ a:hover {
   }
 
 
-  .btn.btn-default2 {
-    padding: 15px 30px;
-    border-radius: 100px;
-    /* background-color: #0C0D0E; */
-    color: #FFFFFF;
-    font-size: 19px;
-    line-height: 20px;
-    font-weight: 700;
-    border-radius: 67px;
-    background: #5658BE;
-  }
+    .btn.btn-default2 {
+        padding: 12px 25px;
+        border-radius: 100px;
+        color: #FFFFFF;
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: 700;
+        border-radius: 67px;
+        background: #5658BE;
+    }
 
   .banner-homepage1 {
     /* background-color: #014FE5; */
@@ -15170,14 +15198,14 @@ a:hover {
     letter-spacing: 0.72px;
   }
 
-  .footer-links a {
-    color: #fff;
-    text-decoration: none;
-    transition: color 0.2s ease;
-    font-size: 20px;
-    line-height: 1.2;
-    font-weight: 300;
-  }
+      .footer-links a {
+        color: #fff !important;
+        text-decoration: none;
+        transition: color 0.2s ease;
+        font-size: 20px;
+        line-height: 1.2;
+        font-weight: 600;
+    }
 
   .action {
     color: #FFF;
@@ -15257,14 +15285,15 @@ a:hover {
     font-size: 15px;
   }
 
-  .create {
-    color: #141414;
-    font-size: 21px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    padding-bottom: 10px;
-  }
+      .create {
+        color: #141414;
+        font-size: 21px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        padding-bottom: 10px;
+        text-transform: capitalize;
+    }
 
 
 
@@ -15303,6 +15332,7 @@ a:hover {
     transform: translateY(20px);
     transition: transform 2s ease-out;
     border-radius: 10px;
+    opacity: 0.5;
   }
 
   .pt-80 {

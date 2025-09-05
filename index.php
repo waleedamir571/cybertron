@@ -89,7 +89,7 @@
         <div class="row align-items-baseline">
           <div class="col-md-6 " data-aos="fade-right">
             <!-- <h1 class="text-up"><span class="stroke-900 no-stroke">Services</span></h1> -->
-            <p class="create">We create <span class="purple">practical solutions </span> tthat help teams succeed in the
+            <p class="create">We create <span class="purple">practical solutions </span> that help teams succeed in the
               <span class="bold">real world.
               </span>
             </p>

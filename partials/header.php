@@ -62,7 +62,7 @@
          <div class="bgh">
         <ul class="main-menu">
           <li><a href="/">Home</a></li>
-          <li><a href="#case">What We Do</a></li>
+          <li><a href="what-we-do">What We Do</a></li>
           <li><a href="who-we-are">Who We Are</a></li>
           <li><a href="#Blog">How we Deliver</a></li>
           <li><a href="join">Join Cybertron</a></li>
@@ -87,7 +87,7 @@
   <div id="mobileMenu" class="mobile-menu d-none">
     <ul>
       <li><a href="index">Home</a></li>
-      <li><a href="#case">What We Do</a></li>
+      <li><a href="what-we-do">What We Do</a></li>
       <li><a href="who-we-are">Who We Are</a></li>
       <li><a href="#Blog">How we Deliver</a></li>
       <li><a href="join">Join Cybertron</a></li>

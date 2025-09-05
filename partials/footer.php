@@ -169,13 +169,22 @@
   });
 </script>
 
+<script>
+  $(window).on("load", function () {
+    setTimeout(function () {
+        $(".custom-loader").addClass("hide"); 
+    }, 2000); // 2 second baad loader hide ho jayega
+});
+
+</script>
+
 
 <script>
-  // DOM load hone ke baad video ko turant play karne ke liye
+  
   document.addEventListener("DOMContentLoaded", function () {
     const video = document.getElementById('bgVideo');
 
-    // video load hone ke baad turant play karne ki koshish
+    
     video.load();
     video.play().catch(function (error) {
       console.log("Autoplay failed:", error);
