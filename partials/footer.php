@@ -15,24 +15,24 @@
           <!-- <h1 class="text-up"><span class="stroke-900 no-stroke">Services</span></h1> -->
           <p class="call">Call us</p>
           <br>
-          <p class="number">+44 20 7482 3128</p>
+         <a href="tel:+923702003933"> <p class="number">+92 370 2003933</p></a>
           <br>
           <p class="call">Email</p>
           <br>
-          <p class="number">sales@cybertron.com</p>
+          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=sales@cybertron.com" target="_blank"><p class="number">sales@cybertron.com</p></a>
           <br>
-          <p class="call">House # A29, 2-V, KDA Scheme #1 , Karachi, Pakistan</p>
+          <p class="call">House # A29, 2-V, KDA Scheme 1 , Karachi ,Pakistan</p>
 
         </div>
         <div class="col-md-2 offset-md-1">
           <!-- <h1 class="text-up"><span class="stroke-900 no-stroke">Services</span></h1> -->
           <p class="call">Follow Us</p>
           <br>
-          <p class="number">Instagram</p>
+         <a href="https://www.instagram.com/cybertronlabs.ltd"> <p class="number">Instagram</p></a>
           <br>
-          <p class="number">LinkedIn</p>
+         <a href="https://pk.linkedin.com/company/cybertron-labs"> <p class="number">LinkedIn</p></a>
           <br>
-          <p class="number">Facebook</p>
+         <a href="https://www.facebook.com/cybertronlabs/"> <p class="number">Facebook</p></a>
 
 
         </div>
@@ -44,8 +44,8 @@
   </div>
 </section>
 <footer class="footer">
-  <div class="footer-container pb-50">
-    <!-- Logo & Description -->
+  <!-- <div class="footer-container pb-50">
+   
     <div class="container-fluid">
       <div class="box-why-us-top1">
         <p class="our">Our <span class="purple">areas</span> of expertise</p>
@@ -66,9 +66,9 @@
           </ul>
         </div>
 
-        <!-- Services -->
+       
         <div class="footer-section">
-          <!-- <h4>Services</h4> -->
+         
           <ul class="footer-links pt-70">
             <li><a href="ui-ux-design">UI/UX Design</a></li>
             <li><a href="ecommerce">E-Commerce</a></li>
@@ -77,9 +77,9 @@
           </ul>
         </div>
 
-        <!-- Resources -->
+      
         <div class="footer-section">
-          <!-- <h4>Resources</h4> -->
+        
           <ul class="footer-links  pt-70">
             <li><a href="devops">Devops </a></li>
             <li><a href="maintainance-and-support">Maintenance & Support</a></li>
@@ -88,9 +88,9 @@
           </ul>
         </div>
 
-        <!-- Contact Info -->
+       
         <div class="footer-section">
-          <!-- <h4>Resources</h4> -->
+         
           <ul class="footer-links pt-70">
             <li><a href="blog.">News & Events</a></li>
             <li><a href="blog-2.">Project Management</a></li>
@@ -101,7 +101,7 @@
       </div>
     </div>
 
-  </div>
+  </div> -->
 
   <div class="custom-footer py-5">
     <div class="container-fluid">
@@ -109,7 +109,7 @@
 
         <!-- Left -->
         <div class="col-md-6 mb-4 mb-md-0 footer-branding">
-          <a href="index.php"> <img src="assets/imgs/page/homepage1/logo.svg" alt=""></a>
+          <a href="index"> <img src="assets/imgs/page/homepage1/logo.svg" alt=""></a>
           <p class="copyright-text">© 2025, Fourmetal ltd. UK, London. All rights reserved</p>
         </div>
 
@@ -275,12 +275,10 @@
 
 
 <script>
-  // Saare button select karo jinki class "btn btn-default" hai
   document.querySelectorAll(".btn.btn-default").forEach(function(button) {
-    button.addEventListener("click", function() {
-      // Contact Us page par redirect karo
-      window.location.href = "contact-us";  
-      // Agar page ka URL alag hai to "/contact-us" ki jagah apna sahi link daalna
+    button.addEventListener("click", function(event) {
+      event.preventDefault(); // default behavior rok diya
+      window.location.href = "contact-us";  // apna actual URL daalna
     });
   });
 </script>
