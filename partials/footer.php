@@ -19,7 +19,7 @@
           <br>
           <p class="call">Email</p>
           <br>
-          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=sales@cybertron.com" target="_blank"><p class="number">sales@cybertron.com</p></a>
+          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=info@cybertronlabs.com" target="_blank"><p class="number">info@cybertronlabs.com</p></a>
           <br>
           <p class="call">House # A29, 2-V, KDA Scheme 1 , Karachi ,Pakistan</p>
 
@@ -110,7 +110,7 @@
         <!-- Left -->
         <div class="col-md-6 mb-4 mb-md-0 footer-branding">
           <a href="index"> <img src="assets/imgs/page/homepage1/logo.svg" alt=""></a>
-          <p class="copyright-text">© 2025, Fourmetal ltd. UK, London. All rights reserved</p>
+          <p class="copyright-text">© 2025, All rights reserved</p>
         </div>
 
         <!-- Right -->
