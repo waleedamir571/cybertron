@@ -73,11 +73,11 @@
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#develop">
+                                        data-bs-target="#develop1">
                                         What are you looking to develop?
                                     </button>
                                 </h2>
-                                <div id="develop" class="accordion-collapse collapse" data-bs-parent="#staffAccordion">
+                                <div id="develop1" class="accordion-collapse collapse" data-bs-parent="#staffAccordion">
                                     <div class="accordion-body">
                                         <ul>
                                             <li>Web Application</li>
@@ -91,11 +91,11 @@
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#staffing">
+                                        data-bs-target="#staffing1">
                                         Staffing Within
                                     </button>
                                 </h2>
-                                <div id="staffing" class="accordion-collapse collapse" data-bs-parent="#staffAccordion">
+                                <div id="staffing1" class="accordion-collapse collapse" data-bs-parent="#staffAccordion">
                                     <div class="accordion-body">
                                         <ul>
                                             <li>1 Week</li>
@@ -109,11 +109,11 @@
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#duration">
+                                        data-bs-target="#duration1">
                                         For how long?
                                     </button>
                                 </h2>
-                                <div id="duration" class="accordion-collapse collapse" data-bs-parent="#staffAccordion">
+                                <div id="duration1" class="accordion-collapse collapse" data-bs-parent="#staffAccordion">
                                     <div class="accordion-body">
                                         <ul>
                                             <li>1 Month</li>
@@ -152,11 +152,11 @@
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#develop">
+                                        data-bs-target="#develop2">
                                         When do you plan to launch your MVP?
                                     </button>
                                 </h2>
-                                <div id="develop" class="accordion-collapse collapse" data-bs-parent="#staffAccordion">
+                                <div id="develop2" class="accordion-collapse collapse" data-bs-parent="#staffAccordion">
                                     <div class="accordion-body">
                                         <ul>
                                             <li>Web Application</li>
@@ -170,11 +170,11 @@
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#staffing">
+                                        data-bs-target="#staffing2">
                                         Would you like to mention your MVP budget?
                                     </button>
                                 </h2>
-                                <div id="staffing" class="accordion-collapse collapse" data-bs-parent="#staffAccordion">
+                                <div id="staffing2" class="accordion-collapse collapse" data-bs-parent="#staffAccordion">
                                     <div class="accordion-body">
                                         <ul>
                                             <li>1 Week</li>
@@ -188,11 +188,11 @@
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#duration">
+                                        data-bs-target="#duration2">
                                         Which industry does your MVP target?
                                     </button>
                                 </h2>
-                                <div id="duration" class="accordion-collapse collapse" data-bs-parent="#staffAccordion">
+                                <div id="duration2" class="accordion-collapse collapse" data-bs-parent="#staffAccordion">
                                     <div class="accordion-body">
                                         <ul>
                                             <li>1 Month</li>
@@ -336,19 +336,22 @@
                 <div class="container-fluid">
                     <div class="row  pb-45">
                         <div class="col-md-6 " data-aos="fade-right">
-                            <img src="assets/imgs/page/web//aq.png" alt="">
+                            <img class="w-100" src="assets/imgs/page/web//aq.png" alt="">
                         </div>
 
                         <div class="col-md-6 " data-aos="fade-left">
                             <div class="row">
                                 <div class="col-md-12">
-                                    <img src="assets/imgs/page/web/a2.png" alt="">
+                                    <img class="w-100" src="assets/imgs/page/web/a2.png" alt="">
+                                    <br>
+                                    
+                                </div>
+                               
+                                <div class="col-md-6">
+                                    <img class="w-100" src="assets/imgs/page/web/a3.png" alt="">
                                 </div>
                                 <div class="col-md-6">
-                                    <img src="assets/imgs/page/web/a3.png" alt="">
-                                </div>
-                                <div class="col-md-6">
-                                    <img src="assets/imgs/page/web/a4.png" alt="">
+                                    <img class="w-100" src="assets/imgs/page/web/a4.png" alt="">
                                 </div>
                             </div>
 

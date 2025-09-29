@@ -7,10 +7,10 @@
             <div class="container-fluid">
                 <div class="row mb-4" data-aos="fade-right">
                     <div class="col-md-10 ">
-                        <p class="head pb-45">Custom <span class="purple">Software Solutions </span>
-                            For<span class="bold">Innovation</span> </p>
-                        <p class="act pb-45">This blog highlights the web design scene in Amsterdam, focusing on
-                            creative agencies and user experience.</p>
+                        <p class="head pb-45"> Driving Innovation with  <span class="purple">Software Development </span>
+                             <span class="bold">Services</span> </p>
+                        <!-- <p class="act pb-45">This blog highlights the web design scene in Amsterdam, focusing on
+                            creative agencies and user experience.</p> -->
 
                     </div>
                 </div>
@@ -40,13 +40,15 @@
                     </div>
                     <div class="col-md-9">
                         <p class="cybertron-heading mt-65 color-900 text-opacity">
-                            We build mobile apps that deliver real business impact. From native and cross-platform
-                            development to secure enterprise solutions and seamless integrations
+                            We build mobile apps through custom software development services that create real business
+                            impact. From native and cross-platform solutions to secure enterprise systems and seamless
+                            integrations.
+
                         </p>
                         <br>
-                      
+
                         <a class="btn btn-default grow-up" href="#">Get in Touch</a>
-                       
+
                     </div>
                 </div>
             </div>
@@ -58,7 +60,8 @@
         <div class="container-fluid">
             <div class="row mb-4">
                 <div class="col-md-6 " data-aos="fade-right">
-                    <p class="head pb-45">Comprehensive <span class="purple">Custom Software <br> Services </p>
+                    <p class="head pb-45">Comprehensive <span class="purple">Custom Software Development <br> Services
+                    </p>
 
 
                 </div>
@@ -81,38 +84,99 @@
                 <div class="container-fluid">
                     <div class="row  flex-start">
                         <div class="col-md-6 " data-aos="fade-right">
-                            <p class="create pb-45">Why <span class="purple">Choose </span> <br> <span class="bold">Cybertron</span>
+                            <p class="create pb-45">Why <span class="purple">partner with </span> <br> <span
+                                    class="bold">Cybertron</span>
                                 </span> </p>
 
-                            <p class="lorem pb-45"> At Cybertron, we combine cutting-edge technology, expert engineering, and
+                            <p class="lorem pb-45"> At Cybertron, we combine cutting-edge technology, expert
+                                engineering, and
                                 a collaborative approach to deliver secure, scalable, and high-performance digital
                                 solutions.</p>
 
 
-                                <div class="ptb-22">
+                            <div class="ptb-22">
                                 <a class="btn btn-default grow-up" href="#">Get in Touch</a>
-                                </div>
-                                
+                            </div>
+
                         </div>
-                       
+
 
 
                         <div class="col-md-6 " data-aos="fade-left">
                             <div class="row">
                                 <div class="col-md-6">
-                                    <img src="assets/imgs/page/web/f1.png" alt="">
+                                    <div class="hero11 hero-border shadow-sm">
+                                        <div class="hero-content">
+                                            <!-- Title: یہاں اپنا متن اردو/انگریزی دونوں لکھ سکتے ہیں -->
+                                            <p class="startup">
+                                                Cross-border
+                                                <span class="purple">expertise</span>
+                                            </p>
+                                            <p class="action fw-300 ptb-20">
+                                                Established experience across different industries and geographies
+
+                                            </p>
+                                        </div>
+                                        <!-- اگر آپ چاہیں تو بائیں/دائیں اور تصویری عنصر شامل کریں -->
+                                    </div>
                                 </div>
                                 <div class="col-md-6">
-                                    <img src="assets/imgs/page/web/f2.png" alt="">
+                                     <div class="ptb-20">
+                                     <div class="hero11 hero-border shadow-sm">
+                                        <div class="hero-content">
+                                            <!-- Title: یہاں اپنا متن اردو/انگریزی دونوں لکھ سکتے ہیں -->
+                                            <p class="startup">
+                                               Client-
+                                                <span class="purple">oriented</span>
+                                            </p>
+                                            <p class="action fw-300 ptb-20">
+                                              All our solutions revolve around your unique goals and hurdles
+
+
+                                            </p>
+                                        </div>
+                                        <!-- اگر آپ چاہیں تو بائیں/دائیں اور تصویری عنصر شامل کریں -->
+                                    </div>
+                                    </div>
                                 </div>
 
                             </div>
+                            <br>
                             <div class="row">
                                 <div class="col-md-6">
-                                    <img src="assets/imgs/page/web/f3.png" alt="">
+                                  <div class="hero11 hero-border shadow-sm">
+                                        <div class="hero-content">
+                                            <!-- Title: یہاں اپنا متن اردو/انگریزی دونوں لکھ سکتے ہیں -->
+                                            <p class="startup">
+                                                Flexible 
+                                                <span class="purple">Process</span>
+                                            </p>
+                                            <p class="action fw-300 ptb-20">
+                                              Transparency <br> drives on-time <br> results
+
+
+
+                                            </p>
+                                        </div>
+                                        <!-- اگر آپ چاہیں تو بائیں/دائیں اور تصویری عنصر شامل کریں -->
+                                    </div>
                                 </div>
                                 <div class="col-md-6">
-                                    <img src="assets/imgs/page/web/f4.png" alt="">
+                                    <div class="ptb-20">
+                                     <div class="hero11 hero-border shadow-sm">
+                                        <div class="hero-content">
+                                            <!-- Title: یہاں اپنا متن اردو/انگریزی دونوں لکھ سکتے ہیں -->
+                                            <p class="startup">
+                                                High-tech 
+                                                <span class="purple">stack</span>
+                                            </p>
+                                            <p class="action fw-300 ptb-20">
+                                             Using modern tools and best practices for next-gen systems.
+                                            </p>
+                                        </div>
+                                        <!-- اگر آپ چاہیں تو بائیں/دائیں اور تصویری عنصر شامل کریں -->
+                                    </div>
+                                    </div>
                                 </div>
 
                             </div>
@@ -135,8 +199,8 @@
 
                 <div class="row mb-4">
                     <div class="col-md-7 " data-aos="fade-right">
-                        <p class="head">Our  Approach to <span class="purple">Custom Software </span> 
-                         <span class="bold">Development</span>
+                        <p class="head">How we deliver <span class="purple">custom software </span>
+                            <span class="bold">solutions</span>
                         </p>
 
 
@@ -149,17 +213,18 @@
     </section>
     <section class="cybertron-section">
         <div class="container-fluid">
-            <div class="row mb-4" >
+            <div class="row mb-4">
                 <div class="col-md-7" data-aos="fade-right">
-                    <p class="head pb-45">Custom  <span class="purple">Solutions </span> For
-                        <span class="bold">Every Sector</span></p>
+                    <p class="head pb-45">Personalized <span class="purple">Solutions </span> For
+                        <span class="bold">all sectors</span>
+                    </p>
 
 
                 </div>
             </div>
 
-         
- <?php include 'partials/slider.php'; ?>
+
+            <?php include 'partials/slider.php'; ?>
 
         </div>
     </section>

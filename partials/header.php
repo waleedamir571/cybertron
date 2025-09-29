@@ -1,3 +1,5 @@
+<?php include 'backend/function/meta.php' ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,7 +9,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="msapplication-TileColor" content="#0E0E0E">
   <meta name="template-color" content="#0E0E0E">
-  <meta name="description" content="Index page">
+  <meta name="description" content="<?php echo $description; ?>">
   <meta name="keywords" content="index, page">
   <meta name="author" content="">
   <link rel="shortcut icon" type="image/x-icon" href="assets/imgs/template/fav.png">
@@ -18,10 +20,12 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Montserrat:ital@0;1&family=Raleway:ital,wght@0,100..900;1,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
     rel="stylesheet">
-   <!-- <link href="https://db.onlinewebfonts.com/c/xxxxxxxxxxxxxxxx?family=AkiraExpanded" rel="stylesheet"> -->
+  <!-- <link href="https://db.onlinewebfonts.com/c/xxxxxxxxxxxxxxxx?family=AkiraExpanded" rel="stylesheet"> -->
 
 
-  <title>Cybertron-Labs</title>
+  <title>
+    <?php echo $title_name; ?>
+  </title>
   <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
 </head>
 
@@ -44,66 +48,93 @@
         alt="neuron"><span>Play</span></span><span class="drag"><img src="assets/imgs/template/icons/cursor-drag.svg"
         alt="neuron"><span>Drag</span></span><span class="view"><img src="assets/imgs/template/icons/cursor-view.svg"
         alt="neuron"><span>View</span></span></div>
-  
+
   <div class="scroll-container" id="scroll-container">
 
- <header class="header sticky-bar">
-  <div class="container-fluid">
-    <div class="main-header d-flex justify-content-between align-items-center">
-      
-      <!-- Logo -->     
-      <div class="header-logo">
-        <a href="./"><img src="assets/imgs/page/homepage1/logo.svg" alt="neuron" class="img-900"></a>
+    <header class="header sticky-bar">
+      <div class="container-fluid">
+        <div class="main-header d-flex justify-content-between align-items-center">
+
+          <!-- Logo -->
+          <div class="header-logo">
+            <a href="./"><img src="assets/imgs/page/homepage1/logo.svg" alt="neuron" class="img-900"></a>
+          </div>
+
+          <!-- Desktop Menu -->
+          <nav class="nav-main-menu d-none d-xl-block">
+
+            <div class="bgh">
+              <ul class="main-menu">
+                <li><a href="/">Home</a></li>
+                <li class="dropdown">
+                  <a href="what-we-do">What We Do</a>
+                  <ul class="dropdown-content">
+                    <div class="dropdown-grid">
+                      <div class="col">
+                        <li><a href="web-app-development">Web Development</a></li>
+                        <li><a href="mobile-app-development">App Development</a></li>
+                        <li><a href="custom-software-development">Custom Software Dev</a></li>
+                      </div>
+                      <div class="col">
+                        <li><a href="ui-ux-design">UI/UX Design</a></li>
+                        <li><a href="ecommerce">E-Commerce</a></li>
+                        <li><a href="design-and-development">Design & Development</a></li>
+                      </div>
+                      <div class="col">
+                        <li><a href="devops">Devops </a></li>
+                        <li><a href="maintainance-and-support">Maintenance & Support</a></li>
+                        <li><a href="staff-augmentation">Staff Augmentations</a></li>
+                      </div>
+                      <div class="col">
+                        <li><a href="blog.">News & Events</a></li>
+                        <li><a href="blog-2.">Project Management</a></li>
+                        <li><a href="join">Jobs & Careers</a></li>
+                      </div>
+                    </div>
+                  </ul>
+                </li>
+
+                <li><a href="who-we-are">Who We Are</a></li>
+                <li><a href="#Blog">How we Deliver</a></li>
+                <li><a href="join">Join Cybertron</a></li>
+              </ul>
+            </div>
+          </nav>
+
+          <!-- Mobile Menu Toggle Button -->
+          <div class="mobile-menu-toggle d-xl-none">
+            <button id="mobileMenuBtn">☰</button>
+          </div>
+
+          <!-- Get in Touch Button -->
+          <div class="header-account d-none d-xl-block">
+            <a href="contact-us" class="btn btn-default grow-up">Get in Touch</a>
+          </div>
+
+        </div>
       </div>
 
-      <!-- Desktop Menu -->
-      <nav class="nav-main-menu d-none d-xl-block">
-
-         <div class="bgh">
-        <ul class="main-menu">
-          <li><a href="/">Home</a></li>
+      <!-- Mobile Menu -->
+      <div id="mobileMenu" class="mobile-menu d-none">
+        <ul>
+          <li><a href="index">Home</a></li>
           <li><a href="what-we-do">What We Do</a></li>
           <li><a href="who-we-are">Who We Are</a></li>
           <li><a href="#Blog">How we Deliver</a></li>
           <li><a href="join">Join Cybertron</a></li>
+          <li><a href="contact-us">Get in Touch</a></li>
         </ul>
-        </div>
-      </nav>
-
-      <!-- Mobile Menu Toggle Button -->
-      <div class="mobile-menu-toggle d-xl-none">
-        <button id="mobileMenuBtn">☰</button>
       </div>
+    </header>
 
-      <!-- Get in Touch Button -->
-      <div class="header-account d-none d-xl-block">
-        <a href="contact-us" class="btn btn-default grow-up">Get in Touch</a>
-      </div>
+    <!-- JS for toggling mobile menu -->
+    <script>
+      const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+      const mobileMenu = document.getElementById('mobileMenu');
 
-    </div>
-  </div>
+      mobileMenuBtn.addEventListener('click', () => {
+        mobileMenu.classList.toggle('d-none');
+      });
+    </script>
 
-  <!-- Mobile Menu -->
-  <div id="mobileMenu" class="mobile-menu d-none">
-    <ul>
-      <li><a href="index">Home</a></li>
-      <li><a href="what-we-do">What We Do</a></li>
-      <li><a href="who-we-are">Who We Are</a></li>
-      <li><a href="#Blog">How we Deliver</a></li>
-      <li><a href="join">Join Cybertron</a></li>
-      <li><a href="contact-us">Get in Touch</a></li>
-    </ul>
-  </div>
-</header>
-
-<!-- JS for toggling mobile menu -->
-<script>
-  const mobileMenuBtn = document.getElementById('mobileMenuBtn');
-  const mobileMenu = document.getElementById('mobileMenu');
-
-  mobileMenuBtn.addEventListener('click', () => {
-    mobileMenu.classList.toggle('d-none');
-  });
-</script>
-
-<!-- Basic CSS -->
+    <!-- Basic CSS -->

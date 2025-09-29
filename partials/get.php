@@ -10,8 +10,8 @@
           </p>
           <br>
           <br>
-          <p class="lorem white pb-50">Your ideas deserve action. Reach out to Cybertron Labs, and let’s craft something
-            bold, smart, and built to grow.
+          <p class="lorem white pb-50">Your journey begins here.
+Build with Cybertron Labs.
           </p>
         </div>
         <!-- Right Column: Button -->

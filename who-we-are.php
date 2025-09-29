@@ -8,7 +8,7 @@
       <div class="container-fluid">
 
         <!-- 🔥 EXPANDABLE VIDEO SECTION STARTS -->
-        <img src="assets/imgs/page/what-we/banner.png" alt="">
+        <img class="w-100" src="assets/imgs/page/what-we/banner.png" alt="">
         <!-- 🔥 EXPANDABLE VIDEO SECTION ENDS -->
 
       </div>
@@ -107,10 +107,10 @@
       </div>
     </div>
   </section>
-  <section class="section pt-50">
-    <div class="box-why-us2 bg-900">
+  <section class="section">
+    <div class="pt-100 pb-30 bg-900">
       <div class="container-fluid">
-        <div class="box-why-us-top" data-aos="fade-right">
+        <div class="" data-aos="fade-right">
           <p class="head">Real-World , <span class="purple">Thinking </span> <br>
             Practical <span class="bold"> Solutions</span> </p>
 
@@ -118,45 +118,39 @@
 
 
         </div>
-        <div class="row">
+        <!-- <div class="row">
           <div class="col-sm-6" data-aos="fade-right">
-            <!-- <img class="h-99" src="assets/imgs/page/homepage1/m1.png" alt=""> -->
+          
             <p class="cost "> Marketing Costs</p>
             <p class="number1 pb-20 pt-20">-87%</p>
             <img class="h-75 w-100" src="assets/imgs/page/homepage1/marketing-costs 1.png" alt="">
 
           </div>
-          <div class="col-sm-6" data-aos="fade-left">
-            <div class="row mobilenone" >
+          <div class="col-sm-6 mobileh" data-aos="fade-left">
+            <div class="row">
               <div class="col-md-12">
-                <!-- <p class="cost "> Impressions</p>
-                    <p class="number1 pb-20 pt-20">+356%</p> -->
-                <img class="w-100" src="assets/imgs/page/homepage1/g1 (2).png" alt="">
+               
+                <img class="w-100 mobilenone" src="assets/imgs/page/homepage1/g1 (2).png" alt="">
               </div>
-              <!-- <div class="col-md-12 pt-80">
-
-                    <p class="cost "> Net Sales Value</p>
-                    <p class="number1 pb-20 pt-20">+150%</p>
-                    <img class="w-90" src="assets/imgs/page/homepage1/graph-3.gif" alt="">
-                  </div> -->
+            
             </div>
 
           </div>
-        </div>
+        </div> -->
 
-        <div class="row pt-45">
+        <!-- <div class="row pt-45">
           <div class="col-sm-6">
 
           </div>
           <div class="col-md-6">
-            <p class="lorem white">We solve problems, not just deliver code. Here’s a glimpse into how our work
-              mindset is
-              creating value across industries—even before the results go live.</p>
+            <p class="lorem white">We solve real problems, not just write code. See how our approach adds value across
+              industries—even before results go live.
+            </p>
             <br>
             <br>
             <a class="btn btn-default grow-up" href="#">Explore More</a>
           </div>
-        </div>
+        </div> -->
 
 
       </div>

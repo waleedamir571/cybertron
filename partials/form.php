@@ -6,8 +6,8 @@
                 <div class="stepwizard"  data-aos="fade-left">
                     <div class="stepwizard-row setup-panel">
                         <div class="stepwizard-step col-md-3">
-                            <a href="#step-1" type="button" class="btn btn-default1 " disabled="disabled">1</a>
-                            <a href="#step-1"><p class="job3"><small>Discovery & Requirement Gathering</small></p></a> 
+                            <a href="#step-1" type="button" class="btn btn-default1 " >1</a>
+                            <a href="#step-1"><p class="job3"><small>Strategy & Planning</small></p></a> 
                         </div>
                         <div class="stepwizard-step col-md-3">
                             <a href="#step-2" type="button" class="btn btn-default1 btn-circle" disabled="disabled">2</a>

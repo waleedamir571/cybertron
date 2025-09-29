@@ -23,33 +23,33 @@ error_reporting(E_ALL);
 
 // $functions = basename($_SERVER['PHP_SELF']); 
 
-$baseUrl = "https://donaldsbookpublishing.com/";
+$baseUrl = "https:/cybertronlabs.com/";
 $functions = basename($_SERVER['PHP_SELF']); // Get just the filename
 
 switch ($functions) {
   case "index.php";
-    $title_name = " Donald’s Book Publishing | Top Book Publishing Company in USA  ";
-    $description = "Get your book published with the best book publishing services in USA. Trusted by authors for editing, design, and global distribution.";
-    $keywords = "Best Book Publishing Company in the USA, Professional Book Publishing Company in the USA, Book Publishing Company";
+    $title_name = " Software Development Company in the UAE| Cybertron Labs  ";
+    $description = " Cybertron Labs delivers AI, software, and full-stack solutions to help businesses innovate, scale, and achieve digital transformation.";
+    $keywords = "";
 
 
     break;
-  case "about-us.php";
-    $title_name = "About Donald’s Book Publishing | Empowering Independent Authors";
-    $description = "Learn about Donald’s Book Publishing—your trusted partner in self-publishing, editing, and marketing books. We help authors bring their stories to life.";
-    $keywords = "Donald’s Book Publishing, about book publisher, publishing support for authors";
+  case "web-app-development.php";
+    $title_name = "Web App Development Services in the UAE| Cybertron Labs ";
+    $description = "Bring your vision to life with Cybertron Labs’ web app development services. We build scalable, responsive, and intuitive web applications.";
+    $keywords = "";
 
     break;
-  case "book-editing-services";
-    $title_name = "Professional Book Editing Services| Donald’s Book Publishing";
-    $description = "Get professional Book Editing Services in USA to perfect your manuscript. Trusted by authors for clarity, flow, and publishing-ready quality.";
-    $keywords = "Book Editing Services, Book Editing Services in USA, Professional Book Editing Services in USA";
+  case "mobile-app-development.php";
+    $title_name = "Mobile App Development Services in the UAE | Cybertron Labs";
+    $description = "Cybertron Labs specializes in custom mobile app development, delivering responsive and scalable applications. We transform your ideas into impactful mobile experiences. ";
+    $keywords = "";
     break;
 
-  case "book-publishing-services.php";
-    $title_name = "Book Publishing Services in USA for Authors | Donald's Book Publishing";
-    $description = "Trusted book publishing services in the USA. From editing to publishing, we help authors bring their stories to life—professionally and seamlessly.";
-    $keywords = "Book Publishing Services in USA, Self-Publishing USA, Professional Publishing for Authors, Publish Your Book in USA, Online Book Publishing USA";
+  case "custom-software-development.php";
+    $title_name = "Custom Software Development Services in the UAE |Cybertron Labs";
+    $description = ": Cybertron Labs offers custom software development services that streamline operations and enhance efficiency.  Partner with us to build user-centric solutions.";
+    $keywords = "";
 
     // $form_heading1 = "Contact Us";
     // $form_heading2 = "Pitch Your Book Idea";
@@ -57,23 +57,23 @@ switch ($functions) {
     // $url = $baseUrl . "services";
     // $keywordwords = "Hancock Publisher Services";
     break;
-  case "book-marketing-services.php";
-    $title_name = "Book Marketing Services in USA | Donald's Publishing";
-    $description = "Boost your book’s visibility with expert Book Marketing Services in USA. From Amazon to social media, we help authors grow their audience. ";
-    $keywords = "Book Marketing Services in USA, Book Marketing Services, Author Marketing Services, Book Promotion USA, Amazon Book Marketing";
+  case "design-and-development.php";
+    $title_name = "Design & Development Services in the UAE|Cybertron Labs";
+    $description = "Cybertron Labs offers end-to-end design and development services, including custom web and mobile applications, UI/UX design, and seamless integrations.";
+    $keywords = "";
 
     break;
-  case "book-illustration-services.php";
-    $title_name = "Book Illustration Services in USA | Donald's Book Publishing";
-    $description = " Professional book illustration services in the USA for authors and publishers. Bring your story to life with custom, high-quality illustrations. ";
-    $keywords = "Book Illustration Services in USA, Book Illustration Services, Author Illustration Services ";
+  case "maintainance-and-support.php";
+    $title_name = "Maintenance & Support Services in the UAE | Cybertron Labs";
+    $description = "  Cybertron Labs offers comprehensive maintenance and support services to keep your digital products running smoothly. From regular updates to troubleshooting. ";
+    $keywords = " ";
 
 
     break;
-  case "ghost-writing-services.php";
-    $title_name = "Top ghost Writing Services in USA | Donald’s Book Publishing";
-    $description = "Get expert ghost writing services in the USA. From concept to publishing, Donald’s Book Publishing helps bring your story to life professionally.";
-    $keywords = "ghost Writing Services in USA, ghost Writing Services,  ghost Writing Services. ";
+  case "ecommerce.php";
+    $title_name = "Expert E-Commerce Services in the UAE | Cybertron Labs";
+    $description = "Cybertron Labs offers comprehensive e-commerce development services, including custom design and mobile optimization, to help your business thrive online.";
+    $keywords = "";
 
     break;
   case "contact-us.php";

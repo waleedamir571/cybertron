@@ -15,24 +15,36 @@
           <!-- <h1 class="text-up"><span class="stroke-900 no-stroke">Services</span></h1> -->
           <p class="call">Call us</p>
           <br>
-         <a href="tel:+923702003933"> <p class="number">+92 370 2003933</p></a>
+          <a href="tel:+923702003933">
+            <p class="number">+92 370 2003933</p>
+          </a>
           <br>
           <p class="call">Email</p>
           <br>
-          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=info@cybertronlabs.com" target="_blank"><p class="number">info@cybertronlabs.com</p></a>
+          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=info@cybertronlabs.com" target="_blank">
+            <p class="number">info@cybertronlabs.com</p>
+          </a>
           <br>
-          <p class="call">House # A29, 2-V, KDA Scheme 1 , Karachi ,Pakistan</p>
+          <a href="https://maps.app.goo.gl/YZSwSK6vyKawsnT28">
+            <p class="call">House # A29, 2-V, KDA Scheme 1 , Karachi ,Pakistan</p>
+          </a>
 
         </div>
         <div class="col-md-2 offset-md-1">
           <!-- <h1 class="text-up"><span class="stroke-900 no-stroke">Services</span></h1> -->
           <p class="call">Follow Us</p>
           <br>
-         <a href="https://www.instagram.com/cybertronlabs.ltd"> <p class="number">Instagram</p></a>
+          <a href="https://www.instagram.com/cybertronlabs.ltd">
+            <p class="number">Instagram</p>
+          </a>
           <br>
-         <a href="https://pk.linkedin.com/company/cybertron-labs"> <p class="number">LinkedIn</p></a>
+          <a href="https://pk.linkedin.com/company/cybertron-labs">
+            <p class="number">LinkedIn</p>
+          </a>
           <br>
-         <a href="https://www.facebook.com/cybertronlabs/"> <p class="number">Facebook</p></a>
+          <a href="https://www.facebook.com/cybertronlabs/">
+            <p class="number">Facebook</p>
+          </a>
 
 
         </div>
@@ -44,7 +56,7 @@
   </div>
 </section>
 <footer class="footer">
-  <!-- <div class="footer-container pb-50">
+   <div class="footer-container pb-50">
    
     <div class="container-fluid">
       <div class="box-why-us-top1">
@@ -59,8 +71,8 @@
 
           <p class="action pb-20">Digital Transformation</p>
           <ul class="footer-links">
-            <li><a href="web-app-development">Web Development</a></li>
-            <li><a href="mobile-app-development">App Development</a></li>
+            <li><a href="web-app-development">Web App Development</a></li>
+            <li><a href="mobile-app-development">Mobile App Development</a></li>
             <li><a href="custom-software-development">Custom Software Dev</a></li>
 
           </ul>
@@ -101,7 +113,7 @@
       </div>
     </div>
 
-  </div> -->
+  </div> 
 
   <div class="custom-footer py-5">
     <div class="container-fluid">
@@ -172,19 +184,19 @@
 <script>
   $(window).on("load", function () {
     setTimeout(function () {
-        $(".custom-loader").addClass("hide"); 
+      $(".custom-loader").addClass("hide");
     }, 2000); // 2 second baad loader hide ho jayega
-});
+  });
 
 </script>
 
 
 <script>
-  
+
   document.addEventListener("DOMContentLoaded", function () {
     const video = document.getElementById('bgVideo');
 
-    
+
     video.load();
     video.play().catch(function (error) {
       console.log("Autoplay failed:", error);
@@ -283,9 +295,11 @@
 </script> -->
 
 
+
+
 <script>
-  document.querySelectorAll(".btn.btn-default").forEach(function(button) {
-    button.addEventListener("click", function(event) {
+  document.querySelectorAll(".btn.btn-default").forEach(function (button) {
+    button.addEventListener("click", function (event) {
       event.preventDefault(); // default behavior rok diya
       window.location.href = "contact-us";  // apna actual URL daalna
     });

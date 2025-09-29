@@ -7,9 +7,9 @@
 
             <div class="container-fluid">
                 <div class="row mb-4" data-aos="fade-right">
-                    <div class="col-md-10 ">
-                        <p class="head pb-45">Building Powerful <span class="purple">E-Commerce </span>
-                            <span class="bold">Expertise</span>
+                    <div class="col-md-7 ">
+                        <p class="head pb-45">Creating impactful <span class="purple">E-Commerce </span>
+                            <span class="bold">solutions</span>
                         </p>
 
 
@@ -41,8 +41,10 @@
                     </div>
                     <div class="col-md-9">
                         <p class="cybertron-heading mt-65 color-900 text-opacity">
-                            We build mobile apps that deliver real business impact. From native and cross-platform
-                            development to secure enterprise solutions and seamless integrations
+                            We create mobile applications that generate tangible business results, from native and
+                            cross-platform development to secure enterprise solutions, all through Design and
+                            Development Services in the UAE.
+
                         </p>
                         <br><br>
                         <a class="btn btn-default grow-up" href="#">Get in Touch</a>
@@ -57,13 +59,13 @@
 
     </section>
 
-  
+
     <section class="cybertron-section">
         <div class="container-fluid">
             <div class="row mb-4">
-                <div class="col-md-9 " data-aos="fade-right">
-                    <p class="head pb-45">Industries <span class="purple">We Serve </span> with Our
-                        <span class="bold">Mobile App Development</span> Services
+                <div class="col-md-7 " data-aos="fade-right">
+                    <p class="head pb-45">Specialized  <span class="purple">design and development </span> 
+                        <span class="bold"></span> Services
                     </p>
 
 
