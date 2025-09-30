@@ -76,46 +76,47 @@ switch ($functions) {
     $keywords = "";
 
     break;
+  case "what-we-do.php";
+    $title_name = "AI, DevOps & Tech Innovation Experts | Cybertron Labs";
+    $description = "Discover how Cybertron Labs delivers powerful solutions in AI development, infrastructure engineering, DevOps, and custom software.";
+    $keywords = "";
+
+    break;
+  case "who-we-are.php";
+    $title_name = "About us- Innovators in Tech & Software | Cybertron Labs";
+    $description = "Learn about Cybertron Labs: our story, mission, and team of passionate technologists. Discover how we help startups and enterprises with custom software.";
+    $keywords = " ";
+
+    break;
+  case "join.php";
+    $title_name = "Join our team | Careers at Cybertron Labs";
+    $description = "Cybertron Labs is hiring! Whether you're into software development, 
+AI or engineering, we welcome passionate talent. Discover our culture and current job openings.";
+    $keywords = "";
+
+    break;
   case "contact-us.php";
-    $title_name = "Contact Us | Donald’s Book Publishing – Get in Touch Today";
-    $description = "Have questions or need support? Contact Donald’s Book Publishing for inquiries about publishing services, book design, printing, or general assistance.";
-    $keywords = "contact Donald’s Book Publishing, book publishing contact USA, publishing support USA, get in touch with publisher, author services contact, USA book publishing help ";
+    $title_name = "Contact Cybertron Labs | Get in Touch with Our Team";
+    $description = "Have questions or want to work with us? Reach out to Cybertron Labs today. We’re here to support your AI, software, and innovation needs.";
+    $keywords = "  ";
 
     break;
-  case "disclaimer-policy.php";
-    $title_name = "Disclaimer Policy | Donald’s Book Publishing – Legal Notice & Liability";
-    $description = "Read the Disclaimer Policy of Donald’s Book Publishing outlining limitations of liability, content accuracy, and user responsibility when using our website.";
-    $keywords = "Donald’s Book Publishing disclaimer, website disclaimer USA, content liability notice, legal disclaimer policy, publishing website disclaimer, limitations of liability ";
+  case "ui-ux-design.php";
+    $title_name = "UI/UX Design Services in the UAE | Cybertron Labs";
+    $description = "Cybertron Labs specializes in UI/UX design that enhances user engagement and satisfaction. Our team creates responsive and visually appealing interfaces.";
+    $keywords = "";
 
     break;
-  case "terms-and-conditions.php";
-    $title_name = "Terms & Conditions | Donald’s Book Publishing – User Agreement";
-    $description = "Review the Terms & Conditions for using Donald’s Book Publishing. Learn about user responsibilities, service terms, copyright policies, and legal guidelines.";
-    $keywords = "Donald’s Book Publishing terms and conditions, user agreement, service terms USA, website terms, legal terms for publishing, content usage policy ";
+  case "devops.php";
+    $title_name = "DevOps Services in the UAE | Cybertron Labs";
+    $description = " Cybertron Labs provides DevOps services that optimize your development pipeline. Improve collaboration, reduce time to market, and ensure scalable.";
+    $keywords = "";
 
     break;
-  case "privacy-policy.php";
-    $title_name = "Privacy Policy | Donald’s Book Publishing – Your Data, Our Responsibility";
-    $description = "Read the Privacy Policy of Donald’s Book Publishing to understand how we collect, use, and protect your personal information when you use our services.";
-    $keywords = " Donald’s Book Publishing privacy policy, data protection policy, how we use your data, personal information privacy, user data policy USA, website privacy practices ";
-
-    break;
-  case "web-content-writing-service.php";
-    $title_name = "Web Content Writing Services in the USA | Donald’s Book Publishing";
-    $description = "Get high-quality web content writing services in the USA. SEO-optimized, compelling, and conversion-driven content tailored to your business needs.";
-    $keywords = "web content writing services USA, SEO content writing, website content writers USA, professional content writing, custom web copy USA, USA content creators ";
-
-    break;
-  case "blog-writing-services.php";
-    $title_name = "Expert Blog Writing Services in the USA | Donald’s Book Publishing";
-    $description = "Grow your brand with professional blog writing services in the USA. SEO-friendly, engaging content tailored to your industry, audience, and goals.";
-    $keywords = "blog writing services USA, professional blog writers, SEO blog content USA, custom blog writing, content writing services USA, blog content creation";
-
-    break;
-  case "articles-services.php";
-    $title_name = "Top Web Design Services in the USA | Donald’s Book Publishing";
-    $description = "Get expert professional article writing services in the USA. Quality content tailored to boost your brand and engage your audience";
-    $keywords = "article writing services USA, SEO article writers, professional content writing USA, blog writing services, custom article writing, USA content creators";
+  case "staff-augmentation.php";
+    $title_name = "Staff Augmentation Services in the UAE| Cybertron Labs";
+    $description = "Boost your team's capabilities with Cybertron Labs' staff augmentation services. We offer skilled professionals who work alongside your team to deliver high-quality.";
+    $keywords = "";
 
     break;
   case "web-design-and-seo.php";

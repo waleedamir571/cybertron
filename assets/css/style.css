@@ -1540,12 +1540,12 @@ label {
 }
 
 .create {
-  color: #141414;
-
-  font-size: 64px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
+    color: #141414;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
 }
 
 .align-items-baseline {
@@ -15118,6 +15118,46 @@ a:hover {
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
+
+  .stepwizard-step {
+    display: -webkit-box;
+    text-align: center;
+    position: relative;
+}
+
+.why-link {
+    color: #FFF;
+    font-size: 25px;
+  
+}
+
+    .stepwizard-step .btn {
+        border-radius: 64px;
+        padding: 18px 24px;
+        position: relative;
+        color: #474747 !important;
+        font-size: 18px;
+        background: transparent;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        border: 2px solid white !important;
+    }
+
+    .btn.btn-default1 {
+    border-radius: 100px;
+    border-radius: 40px;
+    color: #474747 !important;
+    border: 2px solid #474747 !important;
+    display: flex
+;
+    width: 50px;
+    height: 50px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
   .ptb-20 {
     padding: 20px 0;
 }
