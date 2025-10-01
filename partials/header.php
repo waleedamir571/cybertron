@@ -95,7 +95,7 @@
                 </li>
 
                 <li><a href="who-we-are">Who We Are</a></li>
-                <li><a href="#Blog">How we Deliver</a></li>
+                <li><a href="how-we-deliver.php">How we Deliver</a></li>
                 <li><a href="join">Join Cybertron</a></li>
               </ul>
             </div>
